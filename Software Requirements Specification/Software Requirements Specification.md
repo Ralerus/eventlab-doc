@@ -47,7 +47,7 @@ Software Requirements Specification for a calendar web application
 
 ### 1.1 Purpose
 
-This Software Requirements Specification is a description of the *EventLAB* web application - hereinafter referred to as "the application", "the program", "the software", or "it" - that is being developed by the *EventLAB Team*.
+This Software Requirements Specification is a description of the *EventLAB web application* - hereinafter referred to as "the application", "the program", "the software", or "it" - that is being developed by the *EventLAB Team*.
 
 This document clearly states all functional and non-functional requirements that need to be fulfilled by the program. Furthermore, the SRS gives an overview of the usability, reliability, application design, and the defined standards and use cases. This specification shall minimize the risk of failure and eliminate misunderstandings between the customer and the developers of this software.
 
@@ -67,10 +67,10 @@ There are three types of actors: **guests**, **users** and **group members**.
 | **Subsystem** | **Description** |
 | --- | --- |
 | Registration| Allows any person to register to the application |
-| User Profile |  A place where users can display and edit personal data |
 | Login | Site that allows users to log in to the application with their user credentials |
+| User Profile |  A place where users can display and edit personal data |
 | User Calendar / Home Screen | The main page where a user can see all his accepted events and reminders  |
-| Group | Allows users to create a new group of users for common events |
+| Group | Group of users, a central component for organizing common events |
 | Group Calendar | Shows all events for one specific group |
 | Event | One single appointment - this includes place, time, participants, chat, and a what-to-bring list |
 | Chat | A simple text chat for each event where users can share news and updates |
@@ -102,13 +102,12 @@ There are three types of actors: **guests**, **users** and **group members**.
 | [GitHub Source Code](https://github.com/tarjmp/eventlab) | 2018-10-19 | EventLAB Team |
 | [GitHub Documentation](https://github.com/tarjmp/eventlab-doc) | 2018-10-19 | EventLAB Team |
 | [Production Site](https://eventlab-project.herokuapp.com/) | 2018-10-19 | EventLAB Team |
-| [Development Site](https://eventlab-dev.herokuapp.com/) | 2018-10-19 | EventLAB Team |
 
 ### 1.5 Overview
 
-The following chapters of this Software Requirements Specification are about the following aspects:
+The chapters of this Software Requirements Specification are about the following aspects:
 
-- The next chapter will give a general overview about the project. This includes the vision and the overall use case diagram.
+- Chapter 2 will give a general overview about the project. This includes the vision and the overall use case diagram.
 
 - Chapter 3 contains the requirements, i.e. the functionality, usability, reliability and performance of the application. This also includes the provided interfaces, licensing and applicable standards.
 
@@ -124,7 +123,7 @@ Two hours and many phone calls later, John finally arrives: "Sorry, just thought
 
 Although this situation is definitely exaggerated, we felt the need for a tool that provides an intuitive way of organizing events. We wanted to extend the advantages of classic calendar applications with what-to-bring-lists and a chat functionality - strictly separated for each event to avoid confusion.
 
-At that moment, the idea of **EventLAB** was born. *Event*: This means meeting friends and colleagues - having a good time! And *LAB*: That's us: Lukas, Anett and Ben. But it also stands for laboratory: a place where you can exceed limits and try to make the world a better place.
+At that moment, the idea of **EventLAB** was born. *Event*: This means meeting friends and colleagues - having a good time! And *LAB*: That's us -  Lukas, Anett and Ben. But it also stands for laboratory: a place where you can exceed limits and try to make the world a better place.
 
 ### 2.2 Use Case Diagram
 
@@ -134,30 +133,30 @@ At that moment, the idea of **EventLAB** was born. *Event*: This means meeting f
 
 ###  3.1 Functionality
 
-This following section points out all functional requirements and explains their functionality. Each of the following subsections represents a subsystem of the application.
+This following section points out all requirements and explains their functionality. Each of the subsections below represents a subsystem of the application.
 
 #### 3.1.1 Registration
 
-When a user visits the web application, he is asked to register himself. In this moment, he can decide whether he wants to continue with a guest account or if he wants to get a user account to use all functionality.
+When a person visits the web application, he is asked to register himself. In this moment, he can decide whether he wants to continue with a guest account or if he wants to get a user account to use all functionality.
 
-When he decides to register, an input form opens where the person has to provide personal information, such as name, date of birth, etc. and also an e-mail address and a password. After this process, a new user profile is created and the user can  log in.
+When he decides to register, an input form opens where the person has to provide personal information, such as name, date of birth, etc. and also an e-mail address and a password. After this process, a new user profile is created and the person can log in.
 
-#### 3.1.2 User Profile
-
-A registered user can access his user profile. There, he is able to update his provided personal data and password, and also to delete his user account.
-
-#### 3.1.3 Login
+#### 3.1.2 Login
 
 Any person registered to the application can log in by providing the e-mail and password of his user account. Any logged in person possesses the role *user*, any logged out person is a *guest*.
 
+#### 3.1.3 User Profile
+
+A registered user can access his user profile. There, he is able to update his provided personal data and password, and also to delete his user account.
+
 #### 3.1.4 User Calendar
-The home screen of a user shows his personal calendar, where he can see all the events he accepted. No one - except for the user himself - can see the events in his own calendar. If the user wants to create a new group, he can do so on this screen.
+The home screen of a user shows his personal calendar, where he can see all the events he accepted. No user can see the events in another user's private calendar. If the user wants to create a new group, he can do so on this screen.
 
 #### 3.1.5 Groups
 
 When a user wants to plan an event with other people, he can create a new group. Groups are a central component of this application and consist of at least two group members. Any event either belongs to a single user or to a group.
 
-For each group there is a group calendar where members can see all the events for this group. Group members can add new members to the group. Each group member can create new group events and also leave the group at any time.
+For each group there is a group calendar where members can see all the events for this group. Each group member can create new group events and also leave the group at any time. Group members can also add new members to the group.
 
 Groups can be made public, so that all users and guests can visit their calendar and view the events. If a group is public, this *only* affects the calendar view permission: Still only members of the group can create events and add new members.
 
@@ -293,6 +292,8 @@ The web server is available over HTTPS on port 443. Any unencrypted connections 
 ### 3.11 Legal, Copyright, and Other Notices
 
 This document makes use of the *generic he* for reasons of readability. Any terms containing the words "he", "himself", "his", etc. are meant to include both women and men, unless explicitly stated otherwise.
+
+The *EventLAB Team* will not take any responsibility for missed appointments or forgotten items caused by the use of this application, although we will try our very best to avoid such inconvenience.
 
 ### 3.12 Applicable Standards
 
