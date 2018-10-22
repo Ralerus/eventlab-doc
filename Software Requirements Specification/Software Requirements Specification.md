@@ -1,5 +1,5 @@
-# EventLAB
-Software Requirements Specification for a calendar web application
+# EventLAB<br/>Software Requirements Specification
+**Version 1.1**
 
 
 
@@ -8,6 +8,7 @@ Software Requirements Specification for a calendar web application
 | **Date** | **Version** | **Description** | **Author** |
 | -------- | ----------  | --------------- | ---------- |
 | 21/10/2018 | 1.0 | Initial specification | Anett & Ben |
+| 22/10/2018 | 1.1 | Added Software License | Ben |
 
 
 ## Table of Contents
@@ -186,7 +187,7 @@ Users can edit the events in their own calendar and in groups they are a member 
 - writing chat messages
 
 #### 3.1.7 Settings
-The settings screen provide users with additional configuration options that are not included in the user profile settings.
+The settings screen provides users with additional configuration options that are not included in the user profile settings.
 
 Users can change their notification preferences: This includes the notification method and when they want to be notified, e.g.
 - when someone invites you to a new event
@@ -287,7 +288,9 @@ The web server is available over HTTPS on port 443. Any unencrypted connections 
 
 ### 3.10 Licensing Requirements
 
-(tbd)
+The *EventLAB* application and all associated work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### 3.11 Legal, Copyright, and Other Notices
 
