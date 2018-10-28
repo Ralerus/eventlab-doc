@@ -29,9 +29,9 @@ The purpose of this use case is to create a new event for one or more users or f
 1. A user creates a new event by clicking the "Create event" button on his calendar page.
 2. He fills in the required title, date and description of the event.
 3. The user decides whether to add a group or individual users to the event.
-  - If the user wants to invite individual users, he clicks on "Add participants" and selects the desired participants from the list. Afterwards, the user clicks on "Add to event".
-  - If the user wants to make this a group event, he clicks on "Add group" and selects the desired group from the list. Afterwards, the user clicks on "Add to event".
-  - If the user wants to create an event for himself and invite nobody, he simply does neither of the steps mentioned above.
+ %20-%20If the user wants to invite individual users, he clicks on "Add participants" and selects the desired participants from the list. Afterwards, the user clicks on "Add to event".
+ %20-%20If the user wants to make this a group event, he clicks on "Add group" and selects the desired group from the list. Afterwards, the user clicks on "Add to event".
+ %20-%20If the user wants to create an event for himself and invite nobody, he simply does neither of the steps mentioned above.
 4. Optionally, the user can add items to the what-to-bring-list by clicking on "Add what-to-bring-list".
 5. The user creates the event by clicking on the submit button.
 6. The event is created and added to the calendars of the affected users or group.
@@ -42,36 +42,36 @@ The purpose of this use case is to create a new event for one or more users or f
 
 #### 2.1.2 Mockup
 ##### User Calendar
-![Mockup 1](Mockups/01 - User Interface.png)
+![Mockup 1](Mockups/01%20-%20User%20Interface.png)
 
 ##### Create New Event
-![Mockup 2](Mockups/02 - Create New Event Screen.png)
+![Mockup 2](Mockups/02%20-%20Create%20New%20Event%20Screen.png)
 
 ##### Add Participants
-![Mockup 3](Mockups/03 - New Event Screen filled in.png)
+![Mockup 3](Mockups/03%20-%20New%20Event%20Screen%20filled%20in.png)
 
-![Mockup 5](Mockups/05 - Add Participants Screen.png)
+![Mockup 5](Mockups/05%20-%20Add%20Participants%20Screen.png)
 
-![Mockup 6](Mockups/06 - New Event Screen participant added.png)
+![Mockup 6](Mockups/06%20-%20New%20Event%20Screen%20participant%20added.png)
 
 ##### Add Group
-![Mockup 7](Mockups/07 - New Event Screen add group.png)
+![Mockup 7](Mockups/07%20-%20New%20Event%20Screen%20add%20group.png)
 
-![Mockup 9](Mockups/09 - Add Groups Screen.png)
+![Mockup 9](Mockups/09%20-%20Add%20Groups%20Screen.png)
 
-![Mockup 10](Mockups/10 - Event Screen with participants.png)
-
-##### What-to-bring-list
-![Mockup 11](Mockups/11 - What-to-bring-list.png)
+![Mockup 10](Mockups/10%20-%20Event%20Screen%20with%20participants.png)
 
 ##### What-to-bring-list
-![Mockup 12](Mockups/12 - What-to-bring-list.png)
+![Mockup 11](Mockups/11%20-%20What-to-bring-list.png)
+
+##### What-to-bring-list
+![Mockup 12](Mockups/12%20-%20What-to-bring-list.png)
 
 ##### Submitting the Event
-![Mockup 13](Mockups/13 - Event Screen with participants list.png)
+![Mockup 13](Mockups/13%20-%20Event%20Screen%20with%20participants%20list.png)
 
 ##### User Interface with New Event
-![Mockup 14](Mockups/14 - User Interface with new event.png)
+![Mockup 14](Mockups/14%20-%20User%20Interface%20with%20new%20event.png)
 
 
 ### 2.2 Alternative Flows

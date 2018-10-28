@@ -40,21 +40,21 @@ The purpose of this use case is to create a new user account to allow any person
 
 #### 2.1.2 Mockups
 ##### Register Screen
-![Mockup 1](Mockups/1 - Register Screen.png)
+![Mockup 1](Mockups/1%20-%20Register%20Screen.png)
 
 ##### Registration fails
-![Mockup 2](Mockups/2 - Fail Register.png)
+![Mockup 2](Mockups/2%20-%20Fail%20Register.png)
 
-![Mockup 3](Mockups/3 - Fail Register.png)
+![Mockup 3](Mockups/3%20-%20Fail%20Register.png)
 
 ##### Registration Screen filled in
-![Mockup 4](Mockups/4 - Register Screen filled in.png)
+![Mockup 4](Mockups/4%20-%20Register%20Screen%20filled%20in.png)
 
 ##### Confirmation Mail Screen
-![Mockup 5](Mockups/5 - Confirm Mail Screen.png)
+![Mockup 5](Mockups/5%20-%20Confirm%20Mail%20Screen.png)
 
 ##### User Calendar
-![Mockup 6](Mockups/6 - User Interface.png)
+![Mockup 6](Mockups/6%20-%20User%20Interface.png)
 
 
 

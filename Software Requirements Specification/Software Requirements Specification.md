@@ -134,7 +134,7 @@ When a person visits the web application, he is asked to register himself. In th
 When he decides to register, an input form opens where the person has to provide personal information, such as name, date of birth, etc. and also an e-mail address and a password. After this process, a new user profile is created and the person can log in.
 
 > A detailed desciption of this use case can be found here:<br/>
-[Use Case Specification: Register](Use Cases/Register/UC-Specification-Register.md).
+[Use Case Specification: Register](Use%20Cases/Register/UC-Specification-Register.md).
 
 #### 3.1.2 Login
 
@@ -181,7 +181,7 @@ Users can edit the events in their own calendar and in groups they are a member 
 - writing chat messages
 
 > A detailed desciption on how to create a new event can be found here:<br/>
-[Use Case Specification: Create Event](Use Cases/Create Event/UC-Specification-Create-Event.md).
+[Use Case Specification: Create Event](Use%20Cases/Create Event/UC-Specification-Create-Event.md).
 
 #### 3.1.7 Settings
 The settings screen provides users with additional configuration options that are not included in the user profile settings.
