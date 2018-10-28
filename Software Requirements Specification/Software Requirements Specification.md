@@ -181,7 +181,7 @@ Users can edit the events in their own calendar and in groups they are a member 
 - writing chat messages
 
 > A detailed desciption on how to create a new event can be found here:<br/>
-[Use Case Specification: Create Event](Use%20Cases/Create Event/UC-Specification-Create-Event.md).
+[Use Case Specification: Create Event](Use%20Cases/Create%20Event/UC-Specification-Create-Event.md).
 
 #### 3.1.7 Settings
 The settings screen provides users with additional configuration options that are not included in the user profile settings.
