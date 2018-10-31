@@ -29,9 +29,9 @@ The purpose of this use case is to create a new event for one or more users or f
 1. A user creates a new event by clicking the "Create event" button on his calendar page.
 2. He fills in the required title, date and description of the event.
 3. The user decides whether to add a group or individual users to the event.
- %20-%20If the user wants to invite individual users, he clicks on "Add participants" and selects the desired participants from the list. Afterwards, the user clicks on "Add to event".
- %20-%20If the user wants to make this a group event, he clicks on "Add group" and selects the desired group from the list. Afterwards, the user clicks on "Add to event".
- %20-%20If the user wants to create an event for himself and invite nobody, he simply does neither of the steps mentioned above.
+  - If the user wants to invite individual users, he clicks on "Add participants" and selects the desired participants from the list. Afterwards, the user clicks on "Add to event".
+  - If the user wants to make this a group event, he clicks on "Add group" and selects the desired group from the list. Afterwards, the user clicks on "Add to event".
+  - If the user wants to create an event for himself and invite nobody, he simply does neither of the steps mentioned above.
 4. Optionally, the user can add items to the what-to-bring-list by clicking on "Add what-to-bring-list".
 5. The user creates the event by clicking on the submit button.
 6. The event is created and added to the calendars of the affected users or group.
