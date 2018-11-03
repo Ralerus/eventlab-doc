@@ -1,15 +1,5 @@
 # EventLAB<br/>Software Requirements Specification
-**Version 1.1**
-
-
-
-## Revision history
-
-| **Date** | **Version** | **Description** | **Author** |
-| -------- | ----------  | --------------- | ---------- |
-| 21/10/2018 | 1.0 | Initial specification | Anett & Ben |
-| 22/10/2018 | 1.1 | Added Software License | Ben |
-
+**Version 1.2**
 
 ## Table of Contents
 
@@ -88,6 +78,7 @@ There are three types of actors: **guests**, **users** and **group members**.
 | N/A | Not applicable |
 | SRS | Software Requirements Specification |
 | tbd | to be determined |
+| UC | Use Case |
 
 
 | **Definition** | |
@@ -142,6 +133,9 @@ When a person visits the web application, he is asked to register himself. In th
 
 When he decides to register, an input form opens where the person has to provide personal information, such as name, date of birth, etc. and also an e-mail address and a password. After this process, a new user profile is created and the person can log in.
 
+> A detailed desciption of this use case can be found here:<br/>
+[Use Case Specification: Register](Use%20Cases/Register/UC-Specification-Register.md).
+
 #### 3.1.2 Login
 
 Any person registered to the application can log in by providing the e-mail and password of his user account. Any logged in person possesses the role *user*, any logged out person is a *guest*.
@@ -155,7 +149,7 @@ The home screen of a user shows his personal calendar, where he can see all the 
 
 #### 3.1.5 Groups
 
-When a user wants to plan an event with other people, he can create a new group. Groups are a central component of this application and consist of at least two group members. Any event either belongs to a single user or to a group.
+When a user wants to plan an event with other people, he can create a new group. Groups are a central component of this application and consist of at least two group members. Any event either belongs to one or more users, or to one group. Groups can be used for people who plan having further common events in the future. Groups also have certain advantages over inviting a number of individual users to an event:
 
 For each group there is a group calendar where members can see all the events for this group. Each group member can create new group events and also leave the group at any time. Group members can also add new members to the group.
 
@@ -185,6 +179,9 @@ Users can edit the events in their own calendar and in groups they are a member 
 - adding and removing items from the list
 - assigning themselves to items on the list
 - writing chat messages
+
+> A detailed desciption on how to create a new event can be found here:<br/>
+[Use Case Specification: Create Event](Use%20Cases/Create%20Event/UC-Specification-Create-Event.md).
 
 #### 3.1.7 Settings
 The settings screen provides users with additional configuration options that are not included in the user profile settings.
