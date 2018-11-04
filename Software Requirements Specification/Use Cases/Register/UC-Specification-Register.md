@@ -10,8 +10,9 @@
 &emsp;&emsp; [1.1 Brief Description](#11-brief-description)<br/>
 &emsp; [2. Flow of Events](#2-flow-of-events)<br/>
 &emsp;&emsp; [2.1 Basic Flow](#21-basic-flow)<br/>
-&emsp;&emsp;&emsp; [2.1.1 Activity Diagram](#211-activity-diagram)<br/>
-&emsp;&emsp;&emsp; [2.1.2 Mockups](#212-mockups)<br/>
+&emsp;&emsp;&emsp; [2.1.1 Narrative](#211-narrative)<br/>
+&emsp;&emsp;&emsp; [2.1.2 Activity Diagram](#212-activity-diagram)<br/>
+&emsp;&emsp;&emsp; [2.1.3 Mockups](#213-mockups)<br/>
 &emsp;&emsp; [2.2 Alternative Flows](#22-alternative-flows)<br/>
 &emsp;&emsp;&emsp; [2.2.1 Request New Confirmation E-Mail](#221-request-new-confirmation-e-mail)<br/>
 &emsp; [3. Special Requirements](#3-special-requirements)<br/>
@@ -30,15 +31,19 @@ The purpose of this use case is to create a new user account to allow any person
 1. A guest enters the registration process by clicking the "Register" button on any page.
 2. He fills in the required user data and transmits it via a click on the submit button.
 3. The server checks the provided data and continues only on valid inputs. The user is asked to correct the data otherwise.
-3. An automatic e-mail message is generated and sent by the system to verify the provided e-mail address.
-4. The guest opens the e-mail and follows the activation link in the message.
-5. A new user account is created and a new private calendar is set up for the user.
-6. The user gets logged in and redirected to his user calendar.
+4. An automatic e-mail message is generated and sent by the system to verify the provided e-mail address.
+5. The guest opens the e-mail and follows the activation link in the message.
+6. A new user account is created and a new private calendar is set up for the user.
+7. The user gets logged in and redirected to his user calendar.
 
-#### 2.1.1 Activity Diagram
+#### 2.1.1 Narrative
+
+![Feature File](../../Features/register.feature)
+
+#### 2.1.2 Activity Diagram
 ![Activity Diagram Register](Activity-Diagram-Register.png)
 
-#### 2.1.2 Mockups
+#### 2.1.3 Mockups
 ##### Register Screen
 ![Mockup 1](Mockups/1%20-%20Register%20Screen.png)
 
