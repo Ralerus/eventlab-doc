@@ -42,36 +42,36 @@ The purpose of this use case is to create a new event for one or more users or f
 
 #### 2.1.2 Mockup
 ##### User Calendar
-![Mockup 1](Mockups/01%20-%20User%20Interface.png)
+![Mockup 1](Mockups/Create_Event/01%20-%20User%20Interface.png)
 
 ##### Create New Event
-![Mockup 2](Mockups/02%20-%20Create%20New%20Event%20Screen.png)
+![Mockup 2](Mockups/Create_Event/02%20-%20Create%20New%20Event%20Screen.png)
 
 ##### Add Participants
-![Mockup 3](Mockups/03%20-%20New%20Event%20Screen%20filled%20in.png)
+![Mockup 3](Mockups/Create_Event/03%20-%20New%20Event%20Screen%20filled%20in.png)
 
-![Mockup 5](Mockups/05%20-%20Add%20Participants%20Screen.png)
+![Mockup 5](Mockups/Create_Event/05%20-%20Add%20Participants%20Screen.png)
 
-![Mockup 6](Mockups/06%20-%20New%20Event%20Screen%20participant%20added.png)
+![Mockup 6](Mockups/Create_Event/06%20-%20New%20Event%20Screen%20participant%20added.png)
 
 ##### Add Group
-![Mockup 7](Mockups/07%20-%20New%20Event%20Screen%20add%20group.png)
+![Mockup 7](Mockups/Create_Event/07%20-%20New%20Event%20Screen%20add%20group.png)
 
-![Mockup 9](Mockups/09%20-%20Add%20Groups%20Screen.png)
+![Mockup 9](Mockups/Create_Event/09%20-%20Add%20Groups%20Screen.png)
 
-![Mockup 10](Mockups/10%20-%20Event%20Screen%20with%20participants.png)
-
-##### What-to-bring-list
-![Mockup 11](Mockups/11%20-%20What-to-bring-list.png)
+![Mockup 10](Mockups/Create_Event/10%20-%20Event%20Screen%20with%20participants.png)
 
 ##### What-to-bring-list
-![Mockup 12](Mockups/12%20-%20What-to-bring-list.png)
+![Mockup 11](Mockups/Create_Event/11%20-%20What-to-bring-list.png)
+
+##### What-to-bring-list
+![Mockup 12](Mockups/Create_Event/12%20-%20What-to-bring-list.png)
 
 ##### Submitting the Event
-![Mockup 13](Mockups/13%20-%20Event%20Screen%20with%20participants%20list.png)
+![Mockup 13](Mockups/Create_Event/13%20-%20Event%20Screen%20with%20participants%20list.png)
 
 ##### User Interface with New Event
-![Mockup 14](Mockups/14%20-%20User%20Interface%20with%20new%20event.png)
+![Mockup 14](Mockups/Create_Event/14%20-%20User%20Interface%20with%20new%20event.png)
 
 
 ### 2.2 Alternative Flows
