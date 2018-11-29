@@ -71,9 +71,13 @@ Only the user who created the event can delete it.
 ![Activity Diagram Create Event](Activity-Diagram-Create-Event.png)
 
 ##### Read Event
-##### Update Event
-##### Delete Event
+![Activity Diagram Read Event](Activity-Diagram-Read-Event.png)
 
+##### Update Event
+![Activity Diagram Update Event](Activity-Diagram-Update-Event.png)
+
+##### Delete Event
+![Activity Diagram Delete Event](Activity-Diagram-Delete-Event.png)
 
 #### 2.1.2 Mockup
 
