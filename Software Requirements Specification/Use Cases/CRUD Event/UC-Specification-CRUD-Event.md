@@ -81,13 +81,13 @@ Only the user who created the event can delete it.
 [![Mockup 1](Mockups/Create_Event/02%20-%20Create%20New%20Event%20Screen.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Create_Event)
 
 ##### Read Event 
-[![Mockup 2] (Mockups/Read_Event/02%20-%20Event%20Detail%20Site.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Read_Event)
+[![Mockup 2](Mockups/Read_Event/02%20-%20Event%20Detail%20Site.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Read_Event)
 
 ##### Update Event
-[![Mockup 3] (Mockups/Update_Event/03%20-%20Edit%20Event.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Update_Event)
+[![Mockup 3](Mockups/Update_Event/03%20-%20Edit%20Event.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Update_Event)
 
 ##### Delete Event
-[![Mockup 4] (Mockups/Delete_Event/04%20-%20Edit%20Event.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Delete_Event)
+[![Mockup 4](Mockups/Delete_Event/04%20-%20Edit%20Event.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Event/Mockups/Delete_Event)
 
 
 ### 2.2 Alternative Flows
