@@ -67,6 +67,8 @@ Only the user who created the event can delete it.
 #### 2.1.1 Activity Diagram
 
 ##### CRUD Event
+![Activity Diagram CRUD Event](Activity-Diagram-CRUD-Event.png)
+
 ##### Create Event
 ![Activity Diagram Create Event](Activity-Diagram-Create-Event.png)
 
