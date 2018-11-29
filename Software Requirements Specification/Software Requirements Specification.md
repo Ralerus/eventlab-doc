@@ -299,8 +299,12 @@ The *EventLAB Team* will not take any responsibility for missed appointments or 
 
 This application should follow the [PHP Standards Recommendations](https://www.php-fig.org/psr/).
 
-Additionally, the following principles need to be followed:
-- (tbd)
+Additionally, the application must be developed to provide the best possible security. Released code needs to be checked regarding the following types of attack:
+- SQL injections
+- Cross-site scripting (XSS)
+- Cross-site request forgery (CSRF)
+
+Manual security tests needs to be performed regulary.
 
 ## 4. Supporting Information
 
