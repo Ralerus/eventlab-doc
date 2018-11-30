@@ -45,21 +45,21 @@ Only the user who created the event can delete it.
 7. The user is redirected to his private calendar where he can see the event.
 
 ##### Read Event
-1. A user navigates to the event details by clicking on the event at his calender page or to a calender of a different (public) group.
+1. A user navigates to the event details by clicking on the event at his calendar page or to a calender of a different (public) group.
 2. He can display all the information about the even for e.g. title, description and date.
 3. To show the members of the group or the participants he has to click on the arrow button next to the group/participants.
 4. To see the entries in the What-To-Bring-List he has to click on the arrow button next to it.
 5. The user navigates back to the calendar page.
 
 ##### Update Event
-1. A user navigates to the event details by clicking on the event at his calender page.
+1. A user navigates to the event details by clicking on the event at his calendar page.
 2. To edit the Event he has to click on the edit button.
 3. The user is able to change the event name, the description, the date, the group and the What-To-Bring-List.
 4. To save the changes he has to click on the ok button.
 5. The user is redirected to his private calendar where he can see the his changed event.
 
 ##### Delete Event
-1. A user navigates to the event details by clicking on the event at his calender page.
+1. A user navigates to the event details by clicking on the event at his calendar page.
 2. To edit the Event he has to click on the edit button.
 3. The user has to click on the dustbin button to delete the event.
 4. The user is redirected to his private calendar where he can see that the event is deleted.
@@ -111,7 +111,7 @@ Only the user who created the event is allowed to delete it.
 The user must be on his his personal calendar page.
 
 ### Read Event
-The user must be on his personal calendar page or from a different (public) group.
+The user must be on his personal calender page or from a different (public) group.
 
 ## 5. Postconditions
 
