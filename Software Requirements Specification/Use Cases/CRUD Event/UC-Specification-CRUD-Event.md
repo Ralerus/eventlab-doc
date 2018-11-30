@@ -67,19 +67,19 @@ Only the user who created the event can delete it.
 #### 2.1.1 Activity Diagram
 
 ##### CRUD Event
-![Activity Diagram CRUD Event](Activity-Diagram-CRUD-Event.png)
+![Activity Diagrams/Activity Diagram CRUD Event](Activity-Diagram-CRUD-Event.png)
 
 ##### Create Event
-![Activity Diagram Create Event](Activity-Diagram-Create-Event.png)
+![Activity Diagrams/Activity Diagram Create Event](Activity-Diagram-Create-Event.png)
 
 ##### Read Event
-![Activity Diagram Read Event](Activity-Diagram-Read-Event.png)
+![Activity Diagrams/Activity Diagram Read Event](Activity-Diagram-Read-Event.png)
 
 ##### Update Event
-![Activity Diagram Update Event](Activity-Diagram-Update-Event.png)
+!Activity Diagrams/[Activity Diagram Update Event](Activity-Diagram-Update-Event.png)
 
 ##### Delete Event
-![Activity Diagram Delete Event](Activity-Diagram-Delete-Event.png)
+![Activity Diagrams/Activity Diagram Delete Event](Activity-Diagram-Delete-Event.png)
 
 #### 2.1.2 Mockup
 
