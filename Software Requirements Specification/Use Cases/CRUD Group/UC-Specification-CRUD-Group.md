@@ -68,16 +68,16 @@ A group is deleted after the last group member leaves the group.
 
 ##### CRUD Group
 ##### Create Group
-![Activity Diagram Create Group](Activity-Diagram-Create-Group.png)
+![Activity Diagram Create Group](Activity%20Diagrams/Activity-Diagram-Create-Group.png)
 
 ##### Read Group
-![Activity Diagram Read Group](Activity-Diagram-Read-Group.png)
+![Activity Diagram Read Group](Activity%20Diagrams/Activity-Diagram-Read-Group.png)
 
 ##### Update Group
-![Activity Diagram Update Group](Activity-Diagram-Update-Group.png)
+![Activity Diagram Update Group](Activity%20Diagrams/Activity-Diagram-Update-Group.png)
 
 ##### Delete Group (Leave Group)
-![Activity Diagram Delete Group](Activity-Diagram-Delete-Group.png)
+![Activity Diagram Delete Group](Activity%20Diagrams/Activity-Diagram-Delete-Group.png)
 
 #### 2.1.2 Mockup
 
@@ -85,13 +85,13 @@ A group is deleted after the last group member leaves the group.
 [![Mockup 1](Mockups/Create_Group/03%20-%20Create%20New%20Group.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Create_Group)
 
 ##### Read Group 
-[![Mockup 2](Mockups/Read_Group/03%20-%20Group%20Detail%20Site.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Read_Group)
+[![Mockup 2](Mockups/Read_Group/04%20-%20Group%20Detail%20Site.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Read_Group)
 
 ##### Update Group
-[![Mockup 3](Mockups/Update_Group/04%20-%20Edit%20Group.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Update_Group)
+[![Mockup 3](Mockups/Update_Group/05%20-%20Edit%20Group.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Update_Group)
 
 ##### Delete Group (Leave Group)
-[![Mockup 4](Mockups/Delete_Group/05%20-%20Leave%20Group.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Delete_Group)
+[![Mockup 4](Mockups/Delete_Group/06%20-%20Leave%20Group.png)](https://github.com/tarjmp/eventlab-doc/tree/master/Software%20Requirements%20Specification/Use%20Cases/CRUD%20Group/Mockups/Delete_Group)
 
 
 ### 2.2 Alternative Flows
