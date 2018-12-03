@@ -67,6 +67,8 @@ A group is deleted after the last group member leaves the group.
 #### 2.1.1 Activity Diagram
 
 ##### CRUD Group
+![Activity Diagram CRUD Group](Activity%20Diagrams/Activity-Diagram-CRUD-Group.png)
+
 ##### Create Group
 ![Activity Diagram Create Group](Activity%20Diagrams/Activity-Diagram-Create-Group.png)
 
