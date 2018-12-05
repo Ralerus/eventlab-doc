@@ -115,4 +115,12 @@ The performance of the application will be affected by the number of users acces
 Nevertheless, the application should be able to handle the currently expected number of users. In case any performance issues are detected, the hosting plan can be upgraded at any time to provide enough (database) server capacity.
 
 ## 11. Quality
-N/A
+We are using Travis CI as a continuous integration tool to ensure a high quality of our development process. Whenever there is a new commit to any branch, Cucumber tests and PHP unit tests are executed automatically. Pull requests to the production (master) branch must not be permitted until all required tests have passed successfully to ensure a working application at any time.
+
+Additionally, the application must be developed to provide the best possible security. Released code needs to be checked regularly regarding the following types of attack:
+
+- SQL injections
+- Cross-site scripting (XSS)
+- Cross-site request forgery (CSRF)
+
+Furthermore, the PHP source code of the application must follow the [PSR2 Coding Style Guide](https://www.php-fig.org/psr/psr-2/) to guarantee readability and one style of code written by multiple authors.
