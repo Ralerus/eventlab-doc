@@ -34,7 +34,7 @@ n/a
 
 #### 2.1.2 Mockup
 
-![Mockup 1](Mockups/Delete_Event/05%20-%20User%20Interface%20New.png)
+![Mockup 1](Mockups/01%20-%20User%20Interface.png)
 
 ### 2.2 Alternative Flows
 
