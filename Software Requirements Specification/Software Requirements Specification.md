@@ -146,6 +146,8 @@ A registered user can access his user profile. There, he is able to update his p
 
 #### 3.1.4 User Calendar
 The home screen of a user shows his personal calendar, where he can see all the events he accepted. No user can see the events in another user's private calendar. If the user wants to create a new group, he can do so on this screen.
+> A detailed desciption of this use case can be found here:<br/>
+[Use Case Specification: HomeScreen](Use%20Cases/HomeScreen/UC-Specification-HomeScreen.md).
 
 #### 3.1.5 Groups
 
@@ -158,7 +160,8 @@ Groups can be made public, so that all users and guests can visit their calendar
 Users can subscribe to public groups to keep updated about new events. This is similar to a group membership, but without any edit permission to the group and its events.
 
 > The public group feature would make sense for public organizations: Only employees (group members) can create events, but everyone can subscribe.
-
+A detailed desciption of this use case can be found here:<br/>
+[Use Case Specification: CRUD Group](Use%20Cases/CRUD%20Group/UC-Specification-CRUD-Group.md).
 
 
 #### 3.1.6 Events
@@ -181,7 +184,7 @@ Users can edit the events in their own calendar and in groups they are a member 
 - writing chat messages
 
 > A detailed desciption on how to create a new event can be found here:<br/>
-[Use Case Specification: Create Event](Use%20Cases/Create%20Event/UC-Specification-Create-Event.md).
+[Use Case Specification: CRUD Event](Use%20Cases/CRUD%20Event/UC-Specification-CRUD-Event.md).
 
 #### 3.1.7 Settings
 The settings screen provides users with additional configuration options that are not included in the user profile settings.
