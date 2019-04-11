@@ -27,7 +27,7 @@ Any user can create a group with any of his friends. A group requires a name, de
 All details of the group can be read by all group members. If the group is public the calendar of the group and their events can also be seen by guests or users that don't belong to the group.
 Only the user who created the group can update the group.
 A group is deleted after the last group member leaves the group.
-+
+
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
