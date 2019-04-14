@@ -1,4 +1,4 @@
-# Use-Case Specification: HomeScreen
+# Use-Case Specification: Display Calendar
 #### EventLAB
 
 *Version 1.0*
@@ -6,7 +6,7 @@
 ---
 ## Table of Contents
 
-&emsp; [1. HomeScreen](#1-homescreen)<br/>
+&emsp; [1. Display Calendar](#1-display-calendar)<br/>
 &emsp;&emsp; [1.1 Brief Description](#11-brief-description)<br/>
 &emsp; [2. Flow of Events](#2-flow-of-events)<br/>
 &emsp;&emsp; [2.1 Basic Flow](#21-basic-flow)<br/>
@@ -18,11 +18,14 @@
 &emsp; [5. Postconditions](#5-postconditions)<br/>
 &emsp; [6. Extension Points](#6-extension-points)<br/>
 
-## 1. HomeScreen
+## 1. Display Calendar
 
 ### 1.1 Brief Description
 
-The purpose of this use case is to view the homescreen. On the homescreen page there is the personal calendar of the user just as the events of the day and the menu bar.
+The purpose of this use case is to view a certain calendar. This can be a calendar of any public group. Logged-in users can also display the calendar of a group they are a member of, and their own personal calendar.
+
+Each calendar view shows the events in the selected time frame, arranged chronologically.
+> === TO BE DONE ====================
 
 ## 2. Flow of Events
 
@@ -42,11 +45,11 @@ n/a
 
 ## 3. Special Requirements
 
-This use case can be perfomed by users and not by guests.
+This use case can be perfomed by users and guests.
 
 ## 4. Preconditions
 
-The user must be logged in.
+> TBD
 
 ## 5. Postconditions
 
