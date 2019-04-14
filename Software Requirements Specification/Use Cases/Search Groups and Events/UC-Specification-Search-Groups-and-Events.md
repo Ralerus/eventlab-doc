@@ -31,7 +31,7 @@ The purpose of this use case is to provide a helpful search functionality to use
 1. A guest or user types the desired search terms into the search field in the navigation bar.
 2. He hits *Enter* or clicks the search button next to the icon.
 3. The server performs an automatic search for groups and events matching the requested terms.
-4. The user is redirected to a page showing the search results (or that no results could be found).
+4. The user is redirected to a page showing the search results.
 5. The user clicks a search result.
 6. He is redirected to the corresponding group or event.
 
