@@ -36,7 +36,7 @@ The purpose of this use case is to reply to the events that the user is added to
 
 #### 2.1.1 Activity Diagram
 
-![Activity Diagram Reply to Events](Activity-Diagram-Reply-to-Events.png)
+![Activity Diagram Reply to Events](Activity%20Diagrams/Activity-Diagram-Reply-to-Events.png)
 
 #### 2.1.2 Mockup
 
