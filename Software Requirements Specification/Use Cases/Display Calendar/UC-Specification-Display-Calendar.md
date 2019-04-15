@@ -67,7 +67,7 @@ n/a
 
 ## 3. Special Requirements
 
-This use case can be perfomed by users and guests.
+This use case can be performed by users and guests.
 
 ## 4. Preconditions
 
