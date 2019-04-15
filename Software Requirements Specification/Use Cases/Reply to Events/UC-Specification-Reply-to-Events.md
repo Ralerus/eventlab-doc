@@ -36,21 +36,21 @@ The purpose of this use case is to reply to the events that the user is added to
 
 #### 2.1.1 Activity Diagram
 
-![Activity Diagram Reply to Events](Activity-Reply-to-Events.png)
+![Activity Diagram Reply to Events](Activity-Diagram-Reply-to-Events.png)
 
 #### 2.1.2 Mockup
 
 ##### User interface with notification
-[![Mockup 1](Mockups/Reply_to_Events/01%20-%20User%20Interface%20with%20Notification.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/01%20-%20User%20Interface%20with%20Notification.png)
+[![Mockup 1](Mockups/01%20-%20User%20Interface%20with%20Notification.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/01%20-%20User%20Interface%20with%20Notification.png)
 
 ##### Notifications page
-[![Mockup 2](Mockups/Reply_to_Events/02%20-%20Notifications.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/02%20-%20Notifications.png)
+[![Mockup 2](Mockups/02%20-%20Notifications.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/02%20-%20Notifications.png)
 
 ##### Event details
-[![Mockup 3](Mockups/Reply_to_Events/03%20-%20Details%20of%20Event.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/03%20-%20Details%20of%20Event.png)
+[![Mockup 3](Mockups/03%20-%20Details%20of%20Event.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/03%20-%20Details%20of%20Event.png)
 
 ##### Updated Calendar
-[![Mockup 4](Mockups/Reply_to_Events/04%20-%20New%20Event%20in%29Calendar.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/04%20-%20New%20Event%20in%20Calendar.png)
+[![Mockup 4](Mockups/04%20-%20New%20Event%20in%29Calendar.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/04%20-%20New%20Event%20in%20Calendar.png)
 
 
 ### 2.2 Alternative Flows
