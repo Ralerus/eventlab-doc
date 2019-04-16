@@ -1,7 +1,7 @@
 ## Risk Management
 | **Risk Name** | **Risk Description** | **Probability of Occurence** | **Risk Impact** | **Risk Factor** | **Risk Mitigation** | **Person in Charge of Tracking** |
 | --- | --- | --- | --- | --- | --- | --- |
-| Time management | Tasks exceed scheduled time frame | 30% | 5 | 1.50 | Calculate additional time to face possible delays | Ben (Scrum Master) |
+| <span style="color:red;">Time management</span> | Tasks exceed scheduled time frame | 30% | 5 | 1.50 | Calculate additional time to face possible delays | Ben (Scrum Master) |
 | Unavailability | Team member is sick / absent | 25% | 5 | 1.25 | Knowledge transfer | Lukas |
 | Hardware problems | Malfunction/Loss of laptop | 10% | 7 | 0.70 | Storing code on GitHub | Lukas |
 | Missing motivation | Team member has a lower motivation and therefore could not complete his task(s) | 15% | 4 | 0.60 | Weekly scrum meetings and feedback | Anett (Motivation Coach) |
