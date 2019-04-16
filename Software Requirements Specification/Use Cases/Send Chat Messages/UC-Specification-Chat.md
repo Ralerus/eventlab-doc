@@ -45,6 +45,11 @@ The purpose of this use case is to write messages with other members of the even
 ##### Chat window
 [![Mockup 2](Mockups/02%20-%20Chat%20Event.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Send%20Chat%20Messages/Mockups/02%20-%20Chat%20Event.png)
 
+##### Send new messages
+[![Mockup 3](Mockups/03%20-%20Send%20new%20Message.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Send%20Chat%20Messages/Mockups/03%20-%20Send%20new%20Message.png)
+
+##### New message is added to the chat
+[![Mockup 4](Mockups/04%20-%20New%20Message%20is%20added%20to%20Chat.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Send%20Chat%20Messages/Mockups/04%20-%20New%20Message%20is%20added%20to%20Chat.png)
 
 ### 2.2 Alternative Flows
 
