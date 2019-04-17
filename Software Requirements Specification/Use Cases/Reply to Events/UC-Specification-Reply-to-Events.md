@@ -50,7 +50,7 @@ The purpose of this use case is to reply to the events that the user is added to
 [![Mockup 3](Mockups/03%20-%20Details%20of%20Event.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/03%20-%20Details%20of%20Event.png)
 
 ##### Updated Calendar
-[![Mockup 4](Mockups/04%20-%20New%20Event%20in%29Calendar.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/04%20-%20New%20Event%20in%20Calendar.png)
+[![Mockup 4](Mockups/04%20-%20New%20Event%20in%20Calendar.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/04%20-%20New%20Event%20in%20Calendar.png)
 
 
 ### 2.2 Alternative Flows
