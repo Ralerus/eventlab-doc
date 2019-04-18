@@ -70,4 +70,10 @@ n/a
 The user has successfully navigated to the desired event or group and can perform further actions there.
 
 ## 6. Extension Points
-n/a
+
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      21,24 Function Points
+    Time spent: 49m
+	
+![Function Points Search Groups and Events](FP-Search-Groups-and-Events.png)

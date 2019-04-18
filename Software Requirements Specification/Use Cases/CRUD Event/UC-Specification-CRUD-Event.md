@@ -129,4 +129,9 @@ The event has been deleted in all the affected calendars.
 
 ## 6. Extension Points
 
-n/a
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      131,76 Function Points
+    Time spent: 5d 5h 7m
+	
+![Function Points CRUD Event](FP-CRUD-Event.png)

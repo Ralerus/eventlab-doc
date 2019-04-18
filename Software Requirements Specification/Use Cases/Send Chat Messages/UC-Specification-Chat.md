@@ -69,4 +69,9 @@ A message is send to the chat and seen on the screen.
 
 ## 6. Extension Points
 
-n/a
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      20,40 Function Points
+    Time spent: 49m
+	
+![Function Points Send Chat Messages](FP-Send-Chat-Messages.png)

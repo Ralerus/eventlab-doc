@@ -81,4 +81,10 @@ The application is accessed via a guest account, so the user must not be logged 
 n/a
 
 ## 6. Extension Points
-n/a
+
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      36,58 Function Points
+    Time spent: 3d 5h 9m
+	
+![Function Points Register](FP-Register.png)

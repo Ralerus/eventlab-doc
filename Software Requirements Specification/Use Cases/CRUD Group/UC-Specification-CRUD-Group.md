@@ -131,4 +131,9 @@ The group has been deleted in the group page of the affected user.
 
 ## 6. Extension Points
 
-n/a
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      128,26 Function Points
+    Time spent: 4d 5h 51m
+	
+![Function Points CRUD Group](FP-CRUD-Group.png)

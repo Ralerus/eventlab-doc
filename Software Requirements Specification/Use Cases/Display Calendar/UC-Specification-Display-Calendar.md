@@ -79,4 +79,9 @@ The user or guest can click on any event shown in the calendar for further detai
 
 ## 6. Extension Points
 
-n/a
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      47,12 Function Points
+    Time spent: 5d 13m
+	
+![Function Points Display Calendar](FP-Display-Calendar.png)

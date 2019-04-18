@@ -75,4 +75,9 @@ The event is deletd from the notofication page and doesn't appear any more for t
 
 ## 6. Extension Points
 
-n/a
+To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
+
+    Score:      22,42 Function Points
+    Time spent: 49m
+	
+![Function Points Reply to Events](FP-Reply-to-Events.png)
