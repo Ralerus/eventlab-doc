@@ -35,22 +35,12 @@ The purpose of this use case is to manage the subscriptions a user has made. The
 
 #### 2.1.1 Activity Diagram
 
-![Activity Diagram Reply to Events](Activity%20Diagrams/Activity-Diagram-Reply-to-Events.png)
+![Activity Diagram Manage Subscriptions](Activity%20Diagrams/Activity-Diagram-Manage-Subscriptions.png)
 
 #### 2.1.2 Mockup
 
-##### User interface with notification
+##### User interface home screen
 [![Mockup 1](Mockups/01%20-%20User%20Interface%20with%20Notification.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/01%20-%20User%20Interface%20with%20Notification.png)
-
-##### Notifications page
-[![Mockup 2](Mockups/02%20-%20Notifications.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/02%20-%20Notifications.png)
-
-##### Event details
-[![Mockup 3](Mockups/03%20-%20Details%20of%20Event.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/03%20-%20Details%20of%20Event.png)
-
-##### Updated Calendar
-[![Mockup 4](Mockups/04%20-%20New%20Event%20in%20Calendar.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/04%20-%20New%20Event%20in%20Calendar.png)
-
 
 ### 2.2 Alternative Flows
 
@@ -80,4 +70,4 @@ To calulate the function points for a specific use case we used the [TINY TOOLS 
     Score:      0 Function Points
     Time spent: 0 m
 	
-![Function Points Manage subscriptions](FP-Reply-to-Events.png)
+![Function Points Manage subscriptions](FP-Manage-subscriptions.png)
