@@ -79,7 +79,7 @@ The user is no longer subscribed to the user or organization and will not be not
 
 To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
 
-    Score:      0 Function Points
+    Score:      72 Function Points
     Time spent: 0 m
 	
 ![Function Points Manage subscriptions](FP-Manage-subscriptions.png)
