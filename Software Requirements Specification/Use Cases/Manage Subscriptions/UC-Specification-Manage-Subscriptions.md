@@ -35,7 +35,7 @@ The purpose of this use case is to manage the subscriptions a user has made. The
 
 #### 2.1.1 Activity Diagram
 
-![Activity Diagram Manage Subscriptions](Activity%20Diagrams/Activity-Diagram-Manage-Subscriptions.png)
+![Activity Diagram Manage Subscriptions](Activity-Diagram-Manage-Subscriptions.png)
 
 #### 2.1.2 Mockup
 
