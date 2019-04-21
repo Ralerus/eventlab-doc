@@ -79,7 +79,7 @@ The item is now checked for every participant from the event.
 
 To calulate the function points for a specific use case we used the [TINY TOOLS FP Calculator](http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/harvey/FP_Calc.html).
 
-    Score:      0 Function Points
+    Score:      55 Function Points
     Time spent: 0 m
 	
 ![Function Points Edit What-to-bring List](FP-Edit-List.png)
