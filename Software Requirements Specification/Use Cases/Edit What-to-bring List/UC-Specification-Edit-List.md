@@ -82,4 +82,4 @@ To calulate the function points for a specific use case we used the [TINY TOOLS 
     Score:      55 Function Points
     Time spent: 0 m
 	
-![Function Points Edit What-to-bring List](FP-Edit-List.png)
+![Function Points Edit What-to-bring List](FP-Edit-what-to-bring-List.jpg)

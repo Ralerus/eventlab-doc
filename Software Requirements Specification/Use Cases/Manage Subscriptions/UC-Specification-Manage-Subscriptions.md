@@ -82,4 +82,4 @@ To calulate the function points for a specific use case we used the [TINY TOOLS 
     Score:      72 Function Points
     Time spent: 0 m
 	
-![Function Points Manage subscriptions](FP-Manage-subscriptions.png)
+![Function Points Manage subscriptions](FP-Manage-Subscriptions.jpg)
