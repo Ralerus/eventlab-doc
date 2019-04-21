@@ -39,8 +39,20 @@ The purpose of this use case is to manage the subscriptions a user has made. The
 
 #### 2.1.2 Mockup
 
-##### User interface home screen
-[![Mockup 1](Mockups/01%20-%20User%20Interface%20with%20Notification.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/01%20-%20User%20Interface%20with%20Notification.png)
+##### Search bar selected
+[![Mockup 1](Mockups/01%20-%20Search%20Field.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Manage%20Subscriptions/Mockups/01%20-%20Search%20Field.png)
+
+##### Search bar filled out
+[![Mockup 2](Mockups/02%20-%20Search%20Field%20Submit.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Manage%20Subscriptions/Mockups/02%20-%20Search%20Field%20Submit.png)
+
+##### Search result list
+[![Mockup 3](Mockups/03%20-%20Search%20Results.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Manage%20Subscriptions/Mockups/03%20-%20Search%20Results.png)
+
+##### Overview page subscribe
+[![Mockup 4](Mockups/04%20-%20Overview%20page%20-%20subscripe.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Manage%20Subscriptions/Mockups/04%20-%20Overview%20page%20-%20subscripe.png)
+
+##### Overview page unsubscribe
+[![Mockup 5](Mockups/04%20-%20Overview%20page%20-%20unsubscripe.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Manage%20Subscriptions/Mockups/04%20-%20Overview%20page%20-%20unsubscripe.png)
 
 ### 2.2 Alternative Flows
 
