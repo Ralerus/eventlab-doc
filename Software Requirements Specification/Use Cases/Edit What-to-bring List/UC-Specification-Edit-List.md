@@ -35,7 +35,7 @@ The purpose of this use case is to edit the what to bring list for an event. The
 
 #### 2.1.1 Activity Diagram
 
-![Activity Diagram Edit What-to-bring List](Activity%20Diagrams/Activity-Diagram-Edit-What-to-bring-List.png)
+![Activity Diagram Edit What-to-bring List](Activity-Diagram.png)
 
 #### 2.1.2 Mockup
 
