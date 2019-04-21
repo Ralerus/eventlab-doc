@@ -40,7 +40,16 @@ The purpose of this use case is to edit the what to bring list for an event. The
 #### 2.1.2 Mockup
 
 ##### User interface showing the calendar page
-[![Mockup 1](Mockups/01%20-%20User%20Interface%20with%20Notification.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Reply%20to%20Events/Mockups/01%20-%20User%20Interface%20with%20Notification.png)
+[![Mockup 1](Mockups/01%20-%20User%20Interface.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Edit%20What-to-bring%20List/Mockups/01%20-%20User%20Interface.png)
+
+##### User interface showing the event detail page
+[![Mockup 2](Mockups/02%20-Event%20detail%20site.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Edit%20What-to-bring%20List/Mockups/02%20-Event%20detail%20site.png)
+
+##### User interface showing the What-to-bring List
+[![Mockup 3](Mockups/03%20-%20Overview%20what%20to%20bring%20list.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Edit%20What-to-bring%20List/Mockups/03%20-%20Overview%20what%20to%20bring%20list.png)
+
+##### User interface for editing the What-to-bring List
+[![Mockup 4](Mockups/03%20-%20Overview%20what%20to%20bring%20list%20edit.png)](https://github.com/tarjmp/eventlab-doc/blob/master/Software%20Requirements%20Specification/Use%20Cases/Edit%20What-to-bring%20List/Mockups/03%20-%20Overview%20what%20to%20bring%20list%20edit.png)
 
 ### 2.2 Alternative Flows
 
