@@ -1,3 +1,8 @@
+# EventLAB<br/>Master Test Plan
+**Version 1.0**
+
+## Table of Contents
+
 [1. Introduction](#1-introduction)<br/>
 &emsp; [1.1 Purpose](#11-purpose)<br/>
 &emsp; [1.2 Scope](#12-scope)<br/>
