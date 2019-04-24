@@ -12,7 +12,8 @@
 
 [2. Overall Description](#2-overall-description)<br/>
 &emsp; [2.1 Vision](#21-vision)<br/>
-&emsp; [2.2 Use Case Diagram](#22-use-case-diagram)
+&emsp; [2.2 Use Case Diagram](#22-use-case-diagram)<br/>
+&emsp; [2.3 Use Cases](#23-use-cases)
 
 [3. Specific Requirements](#3-specific-requirements)<br/>
 &emsp; [3.1 Functionality](#31-functionality)<br/>
@@ -121,6 +122,18 @@ At that moment, the idea of **EventLAB** was born. *Event*: This means meeting f
 
 ![Overall Use Case Diagram](https://raw.githubusercontent.com/tarjmp/eventlab-doc/master/Software%20Requirements%20Specification/overall-use-case-diagram.png)
 
+### 2.3 Use Cases
+
+- [CRUD Event](Use%20Cases/CRUD%20Event/UC-Specification-CRUD-Event.md)
+- [CRUD Group](Use%20Cases/CRUD%20Group/UC-Specification-CRUD-Group.md)
+- [Display Calendar](Use%20Cases/Display%20Calendar/UC-Specification-Display-Calendar.md)
+- [Edit What-To-Bring-List](Use%20Cases/Edit%20What-to-bring%20List/UC-Specification-Edit-List.md)
+- [Manage Subscriptions](Use%20Cases/Manage%20Subscriptions/UC-Specification-Manage-Subscriptions.md)
+- [Register](Use%20Cases/Register/UC-Specification-Register.md)
+- [Reply to Events](Use%20Cases/Reply%20to%20Events/UC-Specification-Reply-to-Events.md)
+- [Search Groups and Events](Use%20Cases/Search%20Groups%20and%20Events/UC-Specification-Search-Groups-and-Events.md)
+- [Send Chat Messages](Use%20Cases/Send%20Chat%20Messages/UC-Specification-Chat.md)
+
 ## 3. Specific Requirements
 
 ###  3.1 Functionality
@@ -147,7 +160,7 @@ A registered user can access his user profile. There, he is able to update his p
 #### 3.1.4 User Calendar
 The home screen of a user shows his personal calendar, where he can see all the events he accepted. No user can see the events in another user's private calendar. If the user wants to create a new group, he can do so on this screen.
 > A detailed desciption of this use case can be found here:<br/>
-[Use Case Specification: HomeScreen](Use%20Cases/HomeScreen/UC-Specification-HomeScreen.md).
+[Use Case Specification: Display Calendar](Use%20Cases/Display%20Calendar/UC-Specification-Display-Calendar.md).
 
 #### 3.1.5 Groups
 
