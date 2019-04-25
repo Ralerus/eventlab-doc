@@ -8,7 +8,7 @@
 &emsp; [1.2 Scope](#12-scope)<br/>
 &emsp; [1.3 Intended Audience](#13-intended-audience)<br/>
 &emsp; [1.4 Document Terminology and Acronyms](#14-document-terminology-and-acronyms)<br/>
-&emsp; [1.5  References](#15--references)<br/>
+&emsp; [1.5 References](#15-references)<br/>
 &emsp; [1.6 Document Structure](#16-document-structure)<br/>
 [2. Evaluation Mission and Test Motivation](#2-evaluation-mission-and-test-motivation)<br/>
 &emsp; [2.1 Background](#21-background)<br/>
@@ -38,7 +38,7 @@
 &emsp; [6.1 Test Plan](#61-test-plan)<br/>
 &emsp; &emsp; [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)<br/>
 &emsp; &emsp; [6.1.2 Test Plan Exit Criteria](#612-test-plan-exit-criteria)<br/>
-&emsp; &emsp; [6.1.3  Suspension and Resumption Criteria](#613--suspension-and-resumption-criteria)<br/>
+&emsp; &emsp; [6.1.3 Suspension and Resumption Criteria](#613-suspension-and-resumption-criteria)<br/>
 &emsp; [6.2 Test Cycles](#62-test-cycles)<br/>
 &emsp; &emsp; [6.2.1 Test Cycle Entry Criteria](#621-test-cycle-entry-criteria)<br/>
 &emsp; &emsp; [6.2.2 Test Cycle Exit Criteria](#622-test-cycle-exit-criteria)<br/>
@@ -60,11 +60,11 @@
 &emsp; [9.2 Base Software Elements in the Test Environment](#92-base-software-elements-in-the-test-environment)<br/>
 &emsp; [9.3 Productivity and Support Tools](#93-productivity-and-support-tools)<br/>
 &emsp; [9.4 Test Environment Configurations](#94-test-environment-configurations)<br/>
-[10. Responsibilities, Staffing, and Training Needs](#10-responsibilities--staffing--and-training-needs)<br/>
+[10. Responsibilities, Staffing, and Training Needs](#10-responsibilities-staffing-and-training-needs)<br/>
 &emsp; [10.1 People and Roles](#101-people-and-roles)<br/>
 &emsp; [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)<br/>
 [11. Iteration Milestones](#11-iteration-milestones)<br/>
-[12. Risks, Dependencies, Assumptions, and Constraints](#12-risks--dependencies--assumptions--and-constraints)<br/>
+[12. Risks, Dependencies, Assumptions, and Constraints](#12-risks-dependencies-assumptions-and-constraints)<br/>
 
 
 ## 1. Introduction
@@ -77,7 +77,7 @@
 
 ### 1.4 Document Terminology and Acronyms
 
-### 1.5  References
+### 1.5 References
 
 ### 1.6 Document Structure
 
@@ -137,7 +137,7 @@
 
 #### 6.1.2 Test Plan Exit Criteria
 
-#### 6.1.3  Suspension and Resumption Criteria
+#### 6.1.3 Suspension and Resumption Criteria
 
 ### 6.2 Test Cycles
 
