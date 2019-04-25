@@ -65,15 +65,6 @@
 &emsp; [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)<br/>
 [11. Iteration Milestones](#11-iteration-milestones)<br/>
 [12. Risks, Dependencies, Assumptions, and Constraints](#12-risks--dependencies--assumptions--and-constraints)<br/>
-[13. Management Process and Procedures](#13-management-process-and-procedures)<br/>
-&emsp; [13.1 Measuring and Assessing the Extent of Testing](#131-measuring-and-assessing-the-extent-of-testing)<br/>
-&emsp; [13.2 Assessing the Deliverables of this Test Plan](#132-assessing-the-deliverables-of-this-test-plan)<br/>
-&emsp; [13.3 Problem Reporting, Escalation, and Issue Resolution](#133-problem-reporting--escalation--and-issue-resolution)<br/>
-&emsp; [13.4 Managing Test Cycles](#134-managing-test-cycles)<br/>
-&emsp; [13.5 Traceability Strategies](#135-traceability-strategies)<br/>
-&emsp; [13.6 Approval and Signoff](#136-approval-and-signoff)<br/>
-[](#-)<br/>
-[](#-)<br/>
 
 
 ## 1. Introduction
