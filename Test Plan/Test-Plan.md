@@ -135,17 +135,29 @@
 
 #### 6.1.1 Test Plan Entry Criteria
 
+Building a new version of the software using the existing deployment and test environment. This environment consists of Travis CI to detect changes on GitHub and automatically test the software. Additionally, two Heroku instances for test and production are used. Therefore, the in chapter 5 described test approaches will be executed.
+
 #### 6.1.2 Test Plan Exit Criteria
 
+After all test run without throwing an exception, the software will be deployed to the Heroku server.
+
 #### 6.1.3 Suspension and Resumption Criteria
+
+n/a
 
 ### 6.2 Test Cycles
 
 #### 6.2.1 Test Cycle Entry Criteria
 
+A new commit on GitHub in the dev and master branch will start a new test run. Each feature will be developed in a new branch and merged into the dev branch and automatically tested there. The developer manually executes tests in his branch locally.
+
 #### 6.2.2 Test Cycle Exit Criteria
 
+The code coverage report will automatically generated on the badge on the GitHub Repository will be updated. 
+
 #### 6.2.3 Test Cycle Abnormal Termination
+
+Travis CI will report errors of the test failed or was cancelled. If the deployment fails, the Travis CI report will state these errors too.
 
 ## 7. Deliverables
 
