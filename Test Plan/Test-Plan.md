@@ -135,11 +135,11 @@
 
 #### 6.1.1 Test Plan Entry Criteria
 
-Building a new version of the software using the existing deployment and test environment. This environment consists of Travis CI to detect changes on GitHub and automatically test the software. Additionally, two Heroku instances for test and production are used. Therefore, the in chapter 5 described test approaches will be executed.
+Building a new version of the software using the existing deployment and test environment. This environment consists of Travis CI to detect commits on GitHub and automatically test the software. Therefore, the in chapter 5 described test approaches will be executed. Additionally, two Heroku instances for development/test and production are used.
 
 #### 6.1.2 Test Plan Exit Criteria
 
-After all test run without throwing an exception, the software will be deployed to the Heroku server.
+After all test run without throwing an exception, the software will be deployed to the both Heroku instances.
 
 #### 6.1.3 Suspension and Resumption Criteria
 
@@ -149,15 +149,15 @@ n/a
 
 #### 6.2.1 Test Cycle Entry Criteria
 
-A new commit on GitHub in the dev and master branch will start a new test run. Each feature will be developed in a new branch and merged into the dev branch and automatically tested there. The developer manually executes tests in his branch locally.
+For each commit on GitHub a test run will be executed automatically. Due to the fact, that each feature will be developed in a separate branch, for the pull requests to dev and master branches additional test runs are executed. The developer has tested his code locally beforehand.
 
 #### 6.2.2 Test Cycle Exit Criteria
 
-The code coverage report will automatically generated on the badge on the GitHub Repository will be updated. 
+The code coverage report will automatically generated and the badge on the GitHub Repository will be updated. The deployment is only for the master and dev branch on GitHub configured.
 
 #### 6.2.3 Test Cycle Abnormal Termination
 
-Travis CI will report errors of the test failed or was cancelled. If the deployment fails, the Travis CI report will state these errors too.
+Travis CI will report errors of the test failed or was cancelled. If the deployment fails, the Travis CI report will state these errors as well.
 
 ## 7. Deliverables
 
@@ -193,7 +193,7 @@ n/a
 
 #### 7.6.3 Test Guidelines
 
-The unit test shall cover all expected and unexpected inputs and conditions. To ensure this condition is met, a review from a second group member is required to merge this code into the test system where these tests are executed automatically. To merge into the productive system, again a review form a second group member and the running tests in the testing system are required.
+The unit test shall cover all expected and unexpected inputs and conditions. To ensure this condition is met, a review from a second group member is required, when merging the code to the dev/test and production infrastructure. Additionally, for each commit the unit tests will be executed automatically. If they fail, the code cannot be merged.
 
 #### 7.6.4 Traceability Matrices
 
@@ -203,7 +203,7 @@ n/a
 
 Currently tests are executed manually and automatically before deploying to a server.
 
-Therefore, the program and test code will be developed in a separate branch for each feature. After the developer has run the tests locally he fixes all found bugs. After that, he wants to merge his code into the test environment. During this step, the test will automatically be executed. After all checks have been passed and a second group member has approved the test cases, the code will be merged. We are using Travis CI to automatically run the defined tests and to deploy the software to different servers (Heroku). The deployment only takes place when all tests have been passed. These tests are PHP Unit tests. Travis CI also installs all required dependencies, which are specified in config files. The whole process on Travis CI is triggered by a commit to GitHub on the specified branches (dev and master).
+Therefore, the program and test code will be developed in a separate branch for each feature. The developer runs the tests locally and fixes all bugs found. During this step he commits his work to GitHub where all tests are executed. After all work is uploaded, he wants to merge his code into the dev/test environment. During this step, the tests will be executed again. After all checks have been passed and a second group member has approved the test cases, the code will be merged. We are using Travis CI to automatically run the defined tests and to deploy the software to different servers (Heroku). The deployment only takes place when all tests have been passed. These tests are PHP Unit tests. Travis CI also installs all required dependencies, which are specified in config files.
 
 ## 9. Environmental Needs
 
