@@ -137,9 +137,15 @@ As stated previously, the application must provide a certain level of quality to
 
 ### 2.3 Test Motivators
 
-The motivation of this Test Plan has been clearly stated in section [2.1 Background](#21-background).
+The motivation behind this Test Plan has been clearly stated in section [2.1 Background](#21-background).
 
 ## 3. Target Test Items
+
+The listing below identifies the test items (software, hardware, and supporting product elements) that have been identified as targets for testing.
+
+- PHP backend (Laravel application)
+- Database operations
+- Server infrastructure (communication between web server & database server) 
 
 ## 4. Outline of Planned Tests
 
