@@ -209,11 +209,51 @@ Therefore, the program and test code will be developed in a separate branch for 
 
 ### 9.1 Base System Hardware
 
+The following table sets forth the system resources for the test effort presented in this Test Plan.
+
+| Resource | Quantity | Name | Type |
+|---|---|---|---|
+| Integration Server | 1 | Travis CI Worker | Ubuntu Server 14.04.5 amd64 |
+| Development Server | 3 | localhost (php artisan serve) | PHP Built-in web server |
+| Database | 2 | Heroku | PostgreSQL	|
+| Test/Development Server | 1 | Heroku | <Server> |
+| Productive Server | 1 | Heroku |<Server> |
+
 ### 9.2 Base Software Elements in the Test Environment
+
+The following base software elements are required in the test environment for this Test Plan.
+
+| Software Element Name | Version | Type and Other Notes |
+|---|---|---|
+| Windows | 10 1809 | Operating System (64-bit) |
+| Chrome |  74 	| Internet Browser (64-bit) |
+| FireFox |  66	| Internet Browser (64-bit) |
+| Chromedriver |  11 | Application |
 
 ### 9.3 Productivity and Support Tools
 
+The following tools will be employed to support the test process for this Test Plan.
+
+| Tool Category or Type | Tool Brand Name | Vendor or In-house | Version |
+|---|---|---|---|
+| IDE | PhpStorm | JetBrains | 2019.1.1 |
+| Feature Test | Intellij | JetBrains | 17.2 |
+| Language | PHP | The PHP Group | 7.3 |
+| Framework | Laravel | Taylor Otwell | 5.8 |
+| Project Management | YouTrack | JetBrains | 2019.1 |
+| DBMS tools |	pgAdmin | Open Source | 4.5 |
+
 ### 9.4 Test Environment Configurations
+
+The following Test Environment Configurations needs to be provided and supported for this project.
+
+| Configuration Name | Description | Implemented in Physical Configuration |
+|---|---|---|
+| Average user configuration | To run UI test, you need an GUI, our application reachable (local server or internet connection) and a Java Runtime Environment installed. | A monitor with the according computer to run Java is required. |
+| Minimal configuration supported | The minimal configuration to execute the PHP Unit tests is that PhP v7.2 installed. | We use Travis CI which offers Virtual Machines, where PHP can be installed. |
+| Visually and mobility challenged | As we are using the Bootstrap framework, some features are implemented. | You can find those feature [here](https://getbootstrap.com/docs/4.0/getting-started/accessibility/). |
+| International Double Byte OS | n/a | n/a |
+| Network installation (not client) | As we are developing a Web application, an internet connection is required to test and use this application. | As our automated test environment also runs in the internet, a continuous internet connection is required. |
 
 ## 10. Responsibilities, Staffing, and Training Needs
 
