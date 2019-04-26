@@ -201,6 +201,10 @@ n/a
 
 ## 8. Testing Workflow
 
+Currently tests are executed manually and automatically before deploying to a server.
+
+Therefore, the program and test code will be developed in a separate branch for each feature. After the developer has run the tests locally he fixes all found bugs. After that, he wants to merge his code into the test environment. During this step, the test will automatically be executed. After all checks have been passed and a second group member has approved the test cases, the code will be merged. We are using Travis CI to automatically run the defined tests and to deploy the software to different servers (Heroku). The deployment only takes place when all tests have been passed. These tests are PHP Unit tests. Travis CI also installs all required dependencies, which are specified in config files. The whole process on Travis CI is triggered by a commit to GitHub on the specified branches (dev and master).
+
 ## 9. Environmental Needs
 
 ### 9.1 Base System Hardware
