@@ -9,7 +9,6 @@
 &emsp; [1.3 Intended Audience](#13-intended-audience)<br/>
 &emsp; [1.4 Document Terminology and Acronyms](#14-document-terminology-and-acronyms)<br/>
 &emsp; [1.5 References](#15-references)<br/>
-&emsp; [1.6 Document Structure](#16-document-structure)<br/>
 [2. Evaluation Mission and Test Motivation](#2-evaluation-mission-and-test-motivation)<br/>
 &emsp; [2.1 Background](#21-background)<br/>
 &emsp; [2.2 Evaluation Mission](#22-evaluation-mission)<br/>
@@ -70,24 +69,75 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
+The purpose of the Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. It describes the approach to testing the software, and is the top-level plan for estimating the test effort. 
+
+This Test Plan for the EventLAB project supports the following objectives:
+
+- Identifying the items that should be targeted by the tests
+- Identifying the motivation for and ideas behind the test areas to be covered
+- Outlining the testing approach that will be used
+- Identifying the required resources and providing an estimate of the test efforts
+
 
 ### 1.2 Scope
 
+This documents specifies the tests that are used in order to assure that the EventLAB application is working flawlessly. The scope of testing includes the following types of tests:
+
+| Type of test | Explanation / Objective |
+| --- | --- | 
+| **Unit tests** | Standalone tests for single PHP classes and their methods |
+| **Data and database integrity tests** | Minimizing the risk of data loss due to database operations |
+| **Function tests** | Testing the specified use cases with dummy data | 
+| **User interface tests** | Ensuring accessibility and usability for users of the application |
+| **Security and access control tests** | Protecting confidential user data from unauthorized third parties |
+| **Installation tests** | Verifying the deployment of the EventLAB application |
+
 ### 1.3 Intended Audience
+
+This document is intended to be used internally by the _EventLAB Team_. Furthermore, this Test Plan is accessible to any end-user of the application. Therefore, everybody can reassure that the necessary steps are taken to provide a high-quality and secure calendar application.
 
 ### 1.4 Document Terminology and Acronyms
 
+| Abbreviation | |
+| --- | --- |
+| N/A | Not applicable|
+| tbd | to be determined |
+| UC | Use Case |
+
 ### 1.5 References
 
-### 1.6 Document Structure
+- General Information
+  - [EventLAB Blog](https://eventlab.jupiterspace.de/)
+  - [GitHub Source Code](https://github.com/tarjmp/eventlab)
+  - [GitHub Documentation](https://github.com/tarjmp/eventlab-doc)
+  - [Production Site](https://eventlab-project.herokuapp.com/)
+- Documents
+  - [Software Requirements Specification](../Software%20Requirements%20Specification/Software%20Requirements%20Specification.md)
+  - [Software Architecture Document](../Software%20Architecture%20Document/Software%20Architecture%20Document.md)
 
 ## 2. Evaluation Mission and Test Motivation
 
+The mission of this document is to provide the necessary measures in order to develop an application that can be used for the specified tasks (use cases) without erroneous behaviour. Furthermore, the application shall provide security of sensitive user data.
+
 ### 2.1 Background
+
+EventLAB is an application where people can plan events, communicate and schedule their private appointments. When persons use the application productively, they fully depend on its reliability. Chaos and confusion as well as any serious disadvantages might be caused by a faulty calendar.
+
+Therefore, the EventLAB application needs to fulfill the inevitable requirements of being reliable and secure. Loss of data and security issues are serious topics that need to be taken into consideration and prevented with all possible measures.
 
 ### 2.2 Evaluation Mission
 
+As stated previously, the application must provide a certain level of quality to be suitable for productive use. So the evaluation mission includes the following objectives:
+
+- having stable software that can handle the specified use cases
+- prevention of data loss
+- providing data security
+- avoiding bugs and unintended bahaviour
+
+
 ### 2.3 Test Motivators
+
+The motivation of this Test Plan has been clearly stated in section [2.1 Background](#21-background).
 
 ## 3. Target Test Items
 
