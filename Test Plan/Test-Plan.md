@@ -121,7 +121,7 @@ The mission of this document is to provide the necessary measures in order to de
 
 ### 2.1 Background
 
-EventLAB is an application where people can plan events, communicate and schedule their private appointments. When persons use the application productively, they fully depend on its reliability. Chaos and confusion as well as any serious disadvantages might be caused by a faulty calendar.
+EventLAB is an application where people can plan events, communicate and schedule their private appointments. When persons use the application productively, they fully depend on its reliability. Chaos and confusion as well as any serious problems might be caused by a faulty calendar.
 
 Therefore, the EventLAB application needs to fulfill the inevitable requirements of being reliable and secure. Loss of data and security issues are serious topics that need to be taken into consideration and prevented with all possible measures.
 
@@ -132,7 +132,7 @@ As stated previously, the application must provide a certain level of quality to
 - having stable software that can handle the specified use cases
 - prevention of data loss
 - providing data security
-- avoiding bugs and unintended bahaviour
+- avoiding bugs and unintended behaviour
 
 
 ### 2.3 Test Motivators
@@ -144,7 +144,7 @@ The motivation behind this Test Plan has been clearly stated in section [2.1 Bac
 The listing below identifies the test items (software, hardware, and supporting product elements) that have been identified as targets for testing.
 
 - PHP backend (Laravel application)
-- Database operations
+- Database (operations)
 - Server infrastructure (communication between web server & database server) 
 
 ## 4. Outline of Planned Tests
