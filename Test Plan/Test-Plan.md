@@ -187,12 +187,12 @@
 
 This table shows the staffing assumptions for the test effort.
 
-Human Resources
+#### Human Resources
 
 
 | Role | Minimum Resources Recommended (number of full-time roles allocated) |	Specific Responsibilities or Comments | Team member |
 |---|---|---|---|
-| Test Manager | 1 | Provides management oversight. <br> <br> Responsibilities include: <br> <ul> <li> planning and logistics </li> <li> agree mission </li> <li> identify motivators </li> <li> acquire appropriate resources </li> <li> present management reporting </li> <li> advocate the interests of test </li> <li> evaluate effectiveness of test effort </li> </ul> | Lukas |
+| Test Manager | 1 | Provides management oversight. <br> <br> Responsibilities include: <br> <ul> <li> planning and logistics </li> <li> agree on mission </li> <li> identify motivators </li> <li> acquire appropriate resources </li> <li> present management reporting </li> <li> advocate the interests of test </li> <li> evaluate effectiveness of test effort </li> </ul> | Lukas |
 | Test Designer | 1 | Defines the technical approach to the implementation of the test effort. <br> <br> Responsibilities include: <br> <ul> <li> define test approach </li> <li> define test automation architecture </li> <li> verify test techniques </li> <li> define testability elements </li> <li> structure test implementation </li> </ul>| Lukas |
 | Tester | 1 |	Implements and executes the tests. <br> <br> Responsibilities include: <br> <ul> <li> implement tests and test suites </li> <li> execute test suites </li> <li> log results </li> <li> analyze and recover from test failures </li> <li> document incidents </li> </ul>| Ben |
 | Database Administrator, Database Manager | 2 | Ensures test data (database) environment and assets are managed and maintained. <br> <br> Responsibilities include: <br> <ul> <li> support the administration of test data and test beds (database) </li> </ul> | Anett, Ben |
