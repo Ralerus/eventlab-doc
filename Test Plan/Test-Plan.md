@@ -33,6 +33,7 @@
 &emsp; &emsp; [5.2.10 Failover and Recovery Testing](#5210-failover-and-recovery-testing)<br/>
 &emsp; &emsp; [5.2.11 Configuration Testing](#5211-configuration-testing)<br/>
 &emsp; &emsp; [5.2.12 Installation Testing](#5212-installation-testing)<br/>
+&emsp; &emsp; [5.2.13 Unit Testing](#5213-unit-testing)<br/>
 [6. Entry and Exit Criteria](#6-entry-and-exit-criteria)<br/>
 &emsp; [6.1 Test Plan](#61-test-plan)<br/>
 &emsp; &emsp; [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)<br/>
@@ -103,6 +104,8 @@ This document is intended to be used internally by the _EventLAB Team_. Furtherm
 | N/A | Not applicable|
 | tbd | to be determined |
 | UC | Use Case |
+| UI | User Interface |
+| VM | Virtual Machine|
 
 ### 1.5 References
 
@@ -149,41 +152,120 @@ The listing below identifies the test items (software, hardware, and supporting 
 
 ## 4. Outline of Planned Tests
 
+The following section provides a high-level outline of the tests that will be performed and those that will not.
+
 ### 4.1 Outline of Test Inclusions
+
+As stated in [section 1.2](#12-scope), the follwing types of testing are covered by this test plan:
+- Unit tests
+- Data and database integrity tests
+- Function tests
+- User interface tests
+- Security and access control tests
+- Installation tests
 
 ### 4.2 Outline of Other Candidates for Potential Inclusion
 
+N/A
+
 ### 4.3 Outline of Test Exclusions
+
+Load tests are hereby explicitly excluded from the scope of this test plan, as they are currently considered less relevant for a limited number of users. Furthermore, there are limited resources to conduct all tests and therefore the _EventLAB Team_ focuses on higher-priority tests, i.e. the tests listed in [section 4.1](#41-outline-of-test-inclusions).
 
 ## 5. Test Approach
 
 ### 5.1 Initial Test-Idea Catalogs and Other Reference Sources
 
+N/A
+
 ### 5.2 Testing Techniques and Types
 
 #### 5.2.1 Data and Database Integrity Testing
 
+|||
+| --- | --- |
+| Technique Objective | Ensuring the consistency and integrity of all data after every possible database interaction |
+| Technique | <ul><li>performing database access methods as they would be performed by a user</li><li>inserting, updating, selecting and deleting data entries in each database table</li></ul> |
+| Oracles | Verify that all data matches integrity conditions after each transaction (e.g. foreign key constraints) |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>PostgreSQL (database management system)</li></ul>|
+| Success Criteria | The test is passed if all verifications succeeded, i.e. data integrity can be guaranteed for all tested operations. |
+| Special Considerations | N/A |
+
 #### 5.2.2 Function Testing
 
+|||
+| --- | --- |
+| Technique Objective | Ensuring that all defined use cases can be handled by the backend system |
+| Technique | Tests for all controllers and use cases are written and executed after each code change. |
+| Oracles | Each individual test can fail (not fulfill the given assertions) or succeed. This is automatically determined on execution. |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>Codecov (displaying test coverage)</li><li>PHPUnit (function test execution)</li></ul>|
+| Success Criteria | The test is passed if all test cases succeeded, i.e. all use cases could be performed automatically. |
+| Special Considerations | N/A |
+
 #### 5.2.3 Business Cycle Testing
+N/A
 
 #### 5.2.4 User Interface Testing
 
+|||
+| --- | --- |
+| Technique Objective | Ensuring that the UI is suitable to perform the defined use cases of the application |
+| Technique | Tests for all use cases are written and executed after each code change. |
+| Oracles | Each individual test can succeed (all steps could be performed and given expectiation were met) or fail otherwise. This is automatically determined on execution. |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>Cucumber (UI tests with *.feature* files)</li></ul>|
+| Success Criteria | The test is passed if all test cases succeeded, i.e. all *.feature* tests could be performed on the UI. |
+| Special Considerations | N/A |
+
 #### 5.2.5 Performance Profiling
+N/A
 
 #### 5.2.6 Load Testing
+N/A
 
 #### 5.2.7 Stress Testing
+N/A
 
 #### 5.2.8 Volume Testing
+N/A
 
 #### 5.2.9 Security and Access Control Testing
 
+|||
+| --- | --- |
+| Technique Objective | Ensuring that the necessary measures are taken to provide the required security: <ul><li>Application-level security: any user or guest can access only those functions and data for which they have the appropriate permissions</li><li>System-level security:  unauthorized access to the backend system and database is prevented</li></ul> |
+| Technique | At least two *EventLAB Team* members must approve code changes. They have to check the new code for possible security risks before it can be merged into the development branch on GitHub. Additionally, access control tests are included in the function tests, so that possible data access without the according privileges can be found automatically. |
+| Oracles | Security issues found on manual testing can be identified easily. Automatic tests will fail if they encounter any security test issue. |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li></ul>|
+| Success Criteria | If no security issues can be found - neither manually nor automatically - the test is considered to be successful. Nevertheless, security issues can never be excluded for 100%. |
+| Special Considerations | Please report any possible security issues *immediately* to eventlab@jupiterspace.de. |
+
 #### 5.2.10 Failover and Recovery Testing
+N/A
 
 #### 5.2.11 Configuration Testing
+N/A
 
 #### 5.2.12 Installation Testing
+
+|||
+| --- | --- |
+| Technique Objective | Ensuring that the application can be automatically deployed to a web server |
+| Technique | Travis CI performs automatic deployment after all other tests passed. |
+| Oracles | Any occurring errors during deployment are logged by Travis CI. |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>Heroku (web hosting, service provider)</li></ul>|
+| Success Criteria | Installation testing is successful if no errors occurred during Travis CI deployment to Heroku. |
+| Special Considerations | N/A |
+
+#### 5.2.13 Unit Testing
+
+|||
+| --- | --- |
+| Technique Objective | Ensuring that each component (unit) of the backend system is working properly |
+| Technique | Tests for all controllers, classes and methods are written and executed after each code change. |
+| Oracles | Each individual test can fail (not fulfill the given assertions) or succeed. This is automatically determined on execution. |
+| Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>Codecov (displaying test coverage)</li><li>PHPUnit (function test execution)</li></ul>|
+| Success Criteria | The test is passed if all test cases succeeded, i.e. all code units should work as expected. |
+| Special Considerations | N/A |
 
 ## 6. Entry and Exit Criteria
 
