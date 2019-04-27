@@ -185,7 +185,7 @@ N/A
 |||
 | --- | --- |
 | Technique Objective | Ensuring the consistency and integrity of all data after every possible database interaction |
-| Technique | <ul><li>performing database access methods as they would be performed by a user</li><li>inserting, updating, selecting and deleting data entries in each database table</li></ul> |
+| Technique | <ul><li>performing database access methods as they would be performed by users</li><li>inserting, updating, selecting and deleting data entries in each database table</li></ul> |
 | Oracles | Verify that all data matches integrity conditions after each transaction (e.g. foreign key constraints) |
 | Required Tools | <ul><li>Travis CI (automatic test execution in VM)</li><li>PostgreSQL (database management system)</li></ul>|
 | Success Criteria | The test is passed if all verifications succeeded, i.e. data integrity can be guaranteed for all tested operations. |
