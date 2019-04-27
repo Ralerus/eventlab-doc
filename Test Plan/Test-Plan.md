@@ -221,3 +221,5 @@ This section outlines how to approach staffing and training the test roles for t
 | Falsified test data | <ul> <li> <Tester\> clarifies which data is needed and suitable for the tests </li> <li> use php 'faker' to genereate data for testing </li> </ul> | <ul> <li> find the reason of the false data </li> <li> redefine the test data </li> <li> review the test plan and if required modify it </li> </ul>|
 | Running tests are failing | <ul> <li> <Tester\> has to make sure that all test are passing </li> <li> implementing badges to check the test </li> </ul> | <ul> <li> another <Tester\> from the test team is reviewing the tests </li> <li> find the reason for the failure and if required modify the test code </li> </ul> |
 | Database requires refresh | <ul> <li> <SystemAdmin\> will endeavor to ensure the Database is regularly refreshed as required by <Tester\> </li> </ul> | <ul> <li> Restore data and restart </li> <li> Clear database before filling it with dummy data </li> </ul>
+
+>Dependencies, Assumptions and Constraints --> tbd
