@@ -399,8 +399,41 @@ The following test environment configurations needs to be provided and supported
 
 ### 10.1 People and Roles
 
+This table shows the staffing assumptions for the test effort.
+
+#### Human Resources
+
+
+| Role | Minimum Resources Recommended (number of full-time roles allocated) |	Specific Responsibilities or Comments | Team member |
+|---|---|---|---|
+| Test Manager | 1 | Provides management oversight. <br> <br> Responsibilities include: <br> <ul> <li> planning and logistics </li> <li> agree on mission </li> <li> identify motivators </li> <li> acquire appropriate resources </li> <li> present management reporting </li> <li> advocate the interests of test </li> <li> evaluate effectiveness of test effort </li> </ul> | Lukas |
+| Test Designer | 1 | Defines the technical approach to the implementation of the test effort. <br> <br> Responsibilities include: <br> <ul> <li> define test approach </li> <li> define test automation architecture </li> <li> verify test techniques </li> <li> define testability elements </li> <li> structure test implementation </li> </ul>| Lukas |
+| Tester | 1 |	Implements and executes the tests. <br> <br> Responsibilities include: <br> <ul> <li> implement tests and test suites </li> <li> execute test suites </li> <li> log results </li> <li> analyze and recover from test failures </li> <li> document incidents </li> </ul>| Ben |
+| Database Administrator, Database Manager | 2 | Ensures test data (database) environment and assets are managed and maintained. <br> <br> Responsibilities include: <br> <ul> <li> support the administration of test data and test beds (database) </li> </ul> | Anett, Ben |
+| Designer | 1 | Designer		Identifies and defines the operations, attributes, and associations of the test classes. <br> <br> Responsibilities include: <br> <ul> <li> defines the test classes required to support testability requirements as defined by the test team </li> </ul>| Anett |
+| Implementer | 3 | Implements and unit tests the test classes and test packages. <br> <br> Responsibilities include: <br> <ul> <li> creates the test components required to support testability requirements as defined by the designer </li> </ul>| EventLAB Team (Lukas, Ben, Anett) |
+
 ### 10.2 Staffing and Training Needs
+
+This section outlines how to approach staffing and training the test roles for the project. As a team of three we are all included in developing, designing and organizing the project and therefore we all got the qualification and skills to test the application as the major test team.
 
 ## 11. Iteration Milestones
 
+| Milestone | Planned Start Date | Actual Start Date | Planned End Date | Actual End Date |
+|---|---|---|---|---|
+| Have Unit Tests | 23.04.2019 | | 07.05.2019 | |
+| Have Functional Tests | 23.04.2019 | | 07.05.2019 | |
+| Have Installation Tests | 17.10.2018 | 17.10.2018 | 28.10.2018 | 28.10.2018 |
+| > 20% Test Coverage | 30.04.2019 | | 07.05.2019 | |
+| Tests integrated in CI | 01.05.2019 | | 10.05.2019 | |
+| Iteration ends | | | | | |
+
 ## 12. Risks, Dependencies, Assumptions, and Constraints
+
+| Risk | Mitigation Strategy | Contingency (Risk is realized) |
+|---|---|---|
+| Falsified test data | <ul> <li> <Tester\> clarifies which data is needed and suitable for the tests </li> <li> use php 'faker' to genereate data for testing </li> </ul> | <ul> <li> find the reason of the false data </li> <li> redefine the test data </li> <li> review the test plan and if required modify it </li> </ul>|
+| Running tests are failing | <ul> <li> <Tester\> has to make sure that all test are passing </li> <li> implementing badges to check the test </li> </ul> | <ul> <li> another <Tester\> from the test team is reviewing the tests </li> <li> find the reason for the failure and if required modify the test code </li> </ul> |
+| Database requires refresh | <ul> <li> <SystemAdmin\> will endeavor to ensure the Database is regularly refreshed as required by <Tester\> </li> </ul> | <ul> <li> Restore data and restart </li> <li> Clear database before filling it with dummy data </li> </ul>
+
+>Dependencies, Assumptions and Constraints --> tbd
