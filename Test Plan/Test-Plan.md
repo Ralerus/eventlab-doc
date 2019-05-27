@@ -70,7 +70,7 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-The purpose of the Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. It describes the approach to testing the software, and is the top-level plan for estimating the test effort. 
+The purpose of the Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. It describes the approach to testing the software, and is the top-level plan for estimating the test effort.
 
 This Test Plan for the EventLAB project supports the following objectives:
 
@@ -85,10 +85,10 @@ This Test Plan for the EventLAB project supports the following objectives:
 This documents specifies the tests that are used in order to assure that the EventLAB application is working flawlessly. The scope of testing includes the following types of tests:
 
 | Type of test | Explanation / Objective |
-| --- | --- | 
+| --- | --- |
 | **Unit tests** | Standalone tests for single PHP classes and their methods |
 | **Data and database integrity tests** | Minimizing the risk of data loss due to database operations |
-| **Function tests** | Testing the specified use cases with dummy data | 
+| **Function tests** | Testing the specified use cases with dummy data |
 | **User interface tests** | Ensuring accessibility and usability for users of the application |
 | **Security and access control tests** | Protecting confidential user data from unauthorized third parties |
 | **Installation tests** | Verifying the deployment of the EventLAB application |
@@ -148,7 +148,7 @@ The listing below identifies the test items (software, hardware, and supporting 
 
 - PHP backend (Laravel application)
 - Database (operations)
-- Server infrastructure (communication between web server & database server) 
+- Server infrastructure (communication between web server & database server)
 
 ## 4. Outline of Planned Tests
 
@@ -437,3 +437,40 @@ This section outlines how to approach staffing and training the test roles for t
 | Database requires refresh | <ul> <li> <SystemAdmin\> will endeavor to ensure the Database is regularly refreshed as required by <Tester\> </li> </ul> | <ul> <li> Restore data and restart </li> <li> Clear database before filling it with dummy data </li> </ul>
 
 >Dependencies, Assumptions and Constraints --> tbd
+
+## 13. Metrics
+
+Metrics are types of measurements to quantify the quality of the source code of our software and the software itself. To get metrics about code smells and code complexity we used Sonar. With the metric tool Lighthouse from Google we checked the performance of our web application.<br>
+Sonar       - https://www.sonarqube.org/ <br>
+Lighthouse  - https://developers.google.com/web/tools/lighthouse/<br>
+
+With Sonar we get a clear overview over all bugs, code smells and
+found issues of our code.<br>
+Possible problems could be:
+<ul>
+<li>Duplicated code</li>
+<li>Coding standards</li>
+<li>Unit tests</li>
+<li>Code coverage</li>
+<li>Code complexity</li>
+<li>Comments</li>
+<li>Bugs</li>
+<li>Security vulnerabilities</li>
+</ul>
+
+Sonar can be integrated in an automatic deployment process for e.g. into Travis CI.
+
+![Sonar](Metrics/Sonar.png)
+
+With Lighthouse we also got a good overview, but more about the performance lacks we have or not. It makes it possible to increase the progress and the performance faster. <br>
+Things that can be checked with this tool:
+<ul>
+<li>Overall performance</li>
+<li>Accessibility</li>
+<li>Best practices</li>
+<li>Progressive web applications</li>
+</ul>
+
+Lighthouse has to be executed manually.
+
+![Lighthouse](Metrics/lighthouse-total.png)
