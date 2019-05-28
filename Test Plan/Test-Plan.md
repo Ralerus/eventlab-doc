@@ -65,6 +65,7 @@
 &emsp; [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)<br/>
 [11. Iteration Milestones](#11-iteration-milestones)<br/>
 [12. Risks, Dependencies, Assumptions, and Constraints](#12-risks-dependencies-assumptions-and-constraints)<br/>
+[13. Metrics](#13-metrics)<br/>
 
 
 ## 1. Introduction
