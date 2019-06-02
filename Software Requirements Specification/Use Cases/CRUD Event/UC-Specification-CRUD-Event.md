@@ -36,12 +36,11 @@ Only the user who created the event can delete it.
 1. A user creates a new event by clicking the "Create event" button on his calendar page.
 2. He fills in the required title, date and description of the event.
 3. The user decides whether to add a group or individual users to the event.
-  - If the user wants to invite individual users, he clicks on "Add participants" and selects the desired participants from the list. Afterwards, the user clicks on "Add to event".
   - If the user wants to make this a group event, he clicks on "Add group" and selects the desired group from the list. Afterwards, the user clicks on "Add to event".
   - If the user wants to create an event for himself and invite nobody, he simply does neither of the steps mentioned above.
 4. Optionally, the user can add items to the what-to-bring-list by clicking on "Add what-to-bring-list".
 5. The user creates the event by clicking on the submit button.
-6. The event is created and added to the calendars of the affected users or group.
+6. The event is created and added to the calendars of the affected users.
 7. The user is redirected to his private calendar where he can see the event.
 
 ##### Read Event
@@ -107,11 +106,8 @@ Only the user who created the event is allowed to delete it.
 
 ## 4. Preconditions
 
-### Create-, Update-, Delete Event
+### Read-, Create-, Update-, Delete Event
 The user must be on his his personal calendar page.
-
-### Read Event
-The user must be on his personal calender page or from a different (public) group.
 
 ## 5. Postconditions
 
