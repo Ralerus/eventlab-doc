@@ -38,7 +38,7 @@ A group is deleted after the last group member leaves the group.
 3.  He fills in the required name and description of the event.
 4.  The user decides if the group should be public or private by clicking on the radio buttons.
 5.  To select people to the group the user has to click on the "Select participants" button.
-6.  He gets a list of all his friends and is able to choose the participants the user wants to join his group.
+6.  He gets a list of all users and is able to choose the participants to join his group.
 7.  With clicking the "Add to group" button the participants are added to the group.
 8.  To finish the group he has to click on the "Submit" button.
 9.  The group is created and added to the group page of all the affected users.
@@ -53,14 +53,14 @@ A group is deleted after the last group member leaves the group.
 ##### Update Group
 1. A user navigates to the group details by clicking on the group at his group page.
 2. To edit the group he has to click on the edit button.
-3. The user is able to change the group name, the description and if the group is public or private.
+3. The user is able to change the group name, the description and can add new members to the group.
 4. To save the changes he has to click on the "Ok" button.
 5. The user is redirected to his group page where he can see the his changed group.
 
 ##### Delete Group (Leave Group)
 1. A user navigates to the group details by clicking on the group at his group page.
 2. To edit the group he has to click on the edit button.
-3. The user has to click on the dustbin button to delete (leave) the group.
+3. The user has to click on the "Leave Group" button to leave the group.
 4. He gets an dialog with the question if he really wants to leave the group. He has to click on the "Ok" button.
 4. The user is redirected to his group page where he can see that the group is deleted.
 
@@ -104,16 +104,13 @@ n/a
 
 This use case can be perfomed by users and partly by guests. Generally a guest can only display the events and the calendar of public groups.
 To create a group there must be at least 2 members added.
-Only the user who created the group is allowed to update it, he can add new members, but he is not allowed to delete participants.
+All members of the group are allowed to update it, they can add new members, but they are not allowed to delete participants.
 Every member of the group can leave the group at any time. After the last remaining group member leaves the group, the group will be deleted. 
 
 ## 4. Preconditions
 
-### Create-, Update-, Delete (Leave) Group
+### Read-, Create-, Update-, Delete (Leave) Group
 The user must be on his personal group page.
-
-### Read Group
-The user must be on his personal group page or from a different (public) group.
 
 ## 5. Postconditions
 
