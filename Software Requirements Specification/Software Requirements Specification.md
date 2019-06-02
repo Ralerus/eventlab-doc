@@ -63,7 +63,6 @@ There are three types of actors: **guests**, **users** and **group members**.
 | User Profile |  A place where users can display and edit personal data |
 | User Calendar / Home Screen | The main page where a user can see all his accepted events and reminders  |
 | Group | Group of users, a central component for organizing common events |
-| Group Calendar | Shows all events for one specific group |
 | Event | One single appointment - this includes place, time, participants, chat, and a what-to-bring list |
 | Chat | A simple text chat for each event where users can share news and updates |
 | What-to-bring-list | An overview of the things each group member has to bring for the event |
@@ -158,7 +157,7 @@ Any person registered to the application can log in by providing the e-mail and 
 A registered user can access his user profile. There, he is able to update his provided personal data and password, and also to delete his user account.
 
 #### 3.1.4 User Calendar
-The home screen of a user shows his personal calendar, where he can see all the events he accepted. No user can see the events in another user's private calendar. If the user wants to create a new group, he can do so on this screen.
+The home screen of a user shows his personal calendar, where he can see all the events he accepted or accepted tentatively. If the user likes to see also the rejected events he can choose this by selecting a button. No user can see the events in another user's private calendar. If the user wants to create a new group, he can do so over the group overview.
 > A detailed desciption of this use case can be found here:<br/>
 [Use Case Specification: Display Calendar](Use%20Cases/Display%20Calendar/UC-Specification-Display-Calendar.md).
 
@@ -166,7 +165,7 @@ The home screen of a user shows his personal calendar, where he can see all the 
 
 When a user wants to plan an event with other people, he can create a new group. Groups are a central component of this application and consist of at least two group members. Any event either belongs to one or more users, or to one group. Groups can be used for people who plan having further common events in the future. Groups also have certain advantages over inviting a number of individual users to an event:
 
-For each group there is a group calendar where members can see all the events for this group. Each group member can create new group events and also leave the group at any time. Group members can also add new members to the group.
+Each group member can create new group events and also leave the group at any time. Group members can also add new members to the group.
 
 Groups can be made public, so that all users and guests can visit their calendar and view the events. If a group is public, this *only* affects the calendar view permission: Still only members of the group can create events and add new members.
 
@@ -179,7 +178,7 @@ A detailed desciption of this use case can be found here:<br/>
 
 #### 3.1.6 Events
 
-Users can view the events in their own calendar and also events from public groups. Group members can also view events from their groups.
+Users can view all events of the public group they have subscribed to and the ones created by the private groups they are a member of in the calendar view.
 
 Each event contains the following information / functionality:
 - a location and time when the event will happen
@@ -191,7 +190,7 @@ Each event contains the following information / functionality:
 
 Users can edit the events in their own calendar and in groups they are a member of. This includes:
 - changing time and location of the event
-- accepting or rejecting the event
+- accepting, accepting tentatively or rejecting the event
 - adding and removing items from the list
 - assigning themselves to items on the list
 - writing chat messages
