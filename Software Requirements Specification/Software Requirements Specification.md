@@ -66,7 +66,6 @@ There are three types of actors: **guests**, **users** and **group members**.
 | Event | One single appointment - this includes place, time, participants, chat, and a what-to-bring list |
 | Chat | A simple text chat for each event where users can share news and updates |
 | What-to-bring-list | An overview of the things each group member has to bring for the event |
-| Settings | All options for the application, such as notifications, reminders, etc.  |
 
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
@@ -197,15 +196,6 @@ Users can edit the events in their own calendar and in groups they are a member 
 
 > A detailed desciption on how to create a new event can be found here:<br/>
 [Use Case Specification: CRUD Event](Use%20Cases/CRUD%20Event/UC-Specification-CRUD-Event.md).
-
-#### 3.1.7 Settings
-The settings screen provides users with additional configuration options that are not included in the user profile settings.
-
-Users can change their notification preferences: This includes the notification method and when they want to be notified, e.g.
-- when someone invites you to a new event
-- when date and time of an event change
-- when someone adds a new item to the what-to-bring-list
-- when someone sends a chat message
 
 
 ### 3.2 Usability
