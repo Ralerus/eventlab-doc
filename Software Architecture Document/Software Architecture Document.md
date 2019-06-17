@@ -34,6 +34,8 @@
 
 [11. Quality](#11-quality)<br/>
 
+[12. Design Patterns](#12-design-patterns)<br/>
+
 # Software Architecture Documentation
 
 ## 1. Introduction
@@ -124,3 +126,32 @@ Additionally, the application must be developed to provide the best possible sec
 - Cross-site request forgery (CSRF)
 
 Furthermore, the PHP source code of the application must follow the [PSR2 Coding Style Guide](https://www.php-fig.org/psr/psr-2/) to guarantee readability and one style of code written by multiple authors.
+
+## 12. Design Patterns
+
+Design patterns are the answer of typical problems in software design. They are like blueprints that can be customized to solve a particular design problem in the code. Using different design patterns can prevent issues which can cause major problems and improves the code in different ways, like:
+<ul>
+<li> readability
+<li> less complexity
+<li> clarity
+<li> ....
+</ul>
+
+There are different methods for using design patterns. In our case we decided to implement the "Factory Method".
+
+<h5> Factory Method </h5>
+The idea of this method is to define an interface for creating objects and delegate that to different sub classes. Goal is that the client doesn't get in touch with the instatiation of objects and only knows the interface. The "creation code" is differentiated from the client.
+
+The results we got after using the factory method as design pattern can be seen in the following pictures:
+
+[![Permission After](design-patterns-permission-after.png)](design-patterns-permission-after.png)
+
+Class diagram after refactoring: The Permission class is made abstract and instantiated by the PermissionFactory. Each individual permission got its own subclass which extends Permission.
+
+[![Interface](design-patterns-interface.png)](design-patterns-interface.png)
+
+Newly created abstract class “Permission”.
+
+[![Implementation of the interface](design-patterns-implementation-of-the-interface.png)](design-patterns-implementation-of-the-interface.png)
+
+Implementation of the abstract class above.
