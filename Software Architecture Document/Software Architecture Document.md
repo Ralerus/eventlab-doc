@@ -34,7 +34,7 @@
 
 [11. Quality](#11-quality)<br/>
 
-[12. Design Patterns](#11-design-patterns)<br/>
+[12. Design Patterns](#12-design-patterns)<br/>
 
 # Software Architecture Documentation
 
