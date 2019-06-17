@@ -422,12 +422,12 @@ This section outlines how to approach staffing and training the test roles for t
 
 | Milestone | Planned Start Date | Actual Start Date | Planned End Date | Actual End Date |
 |---|---|---|---|---|
-| Have Unit Tests | 23.04.2019 | | 07.05.2019 | |
-| Have Functional Tests | 23.04.2019 | | 07.05.2019 | |
+| Have Unit Tests | 23.04.2019 | 25.04.2019 | 07.05.2019 | 05.05.2019 |
+| Have Functional Tests | 23.04.2019 | 23.04.2019 | 07.05.2019 | 05.05.2019 |
 | Have Installation Tests | 17.10.2018 | 17.10.2018 | 28.10.2018 | 28.10.2018 |
-| > 20% Test Coverage | 30.04.2019 | | 07.05.2019 | |
-| Tests integrated in CI | 01.05.2019 | | 10.05.2019 | |
-| Iteration ends | | | | | |
+| > 20% Test Coverage | 25.04.2019 | 25.04.2019 | 07.05.2019 | 02.05.2019 |
+| Tests integrated in TravisCI | 17.10.2018 | 17.10.2018| 10.05.2019 | 05.05.2019 |
+| Iteration ends | 15.05.2019 | 13.05.2019 | 17.06.2019 | 17.06.2019 |
 
 ## 12. Risks, Dependencies, Assumptions, and Constraints
 
@@ -437,7 +437,6 @@ This section outlines how to approach staffing and training the test roles for t
 | Running tests are failing | <ul> <li> <Tester\> has to make sure that all test are passing </li> <li> implementing badges to check the test </li> </ul> | <ul> <li> another <Tester\> from the test team is reviewing the tests </li> <li> find the reason for the failure and if required modify the test code </li> </ul> |
 | Database requires refresh | <ul> <li> <SystemAdmin\> will endeavor to ensure the Database is regularly refreshed as required by <Tester\> </li> </ul> | <ul> <li> Restore data and restart </li> <li> Clear database before filling it with dummy data </li> </ul>
 
->Dependencies, Assumptions and Constraints --> tbd
 
 ## 13. Metrics
 
